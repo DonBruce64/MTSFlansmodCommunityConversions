@@ -1,0 +1,188 @@
+{
+  "definitions" : [
+		{
+		"name" : "Burton 33 Metrotour",
+			"subName" : "",
+			"extraMaterials" : []
+		}
+	],
+	
+  "general": {
+	"description" : "",
+    "type" : "car",
+		"openTop" : false,
+		"emptyMass" : 2000,
+		"materials" : ["minecraft:iron_ingot:0:20"]
+  },
+
+  "motorized" : {
+		"isBigTruck" : true,
+    "isFrontWheelDrive" : false,
+		"isRearWheelDrive" : true,
+		"hasCruiseControl" : false,
+		"axleRatio" : 3.55,
+    "dragCoefficient" : 0.6,
+    "fuelCapacity" : 15000,
+    "hornSound" : "mtsofficialpack:horn_car",
+    "instruments": []
+  },	
+	"parts": [
+		//Wheels are 0.1875 inboarded from axle.
+		{
+      "pos" : [1.3125, 0, 9.1875],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25,
+			"turnsWithSteer" : true
+    },
+		{
+      "pos" : [-1.3125, 0, 9.1875],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25,
+			"turnsWithSteer" : true
+    },
+		{
+      "pos" : [1.3125, 0, 0],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25
+    },
+		{
+      "pos" : [-1.3125, 0, 0],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25
+    },
+		{
+      "pos" : [0.9375, 1.15625, 7.53125],
+      "types" : ["seat"],
+      "isController" : true
+    },
+		{
+      "pos" : [0.9375, 1.15625, 6.34375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [-0.9375, 1.15625, 6.34375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [0.9375, 1.15625, 5.09375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [-0.9375, 1.15625, 5.09375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [0.9375, 1.15625, 3.84375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [-0.9375, 1.15625, 3.84375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [0.9375, 1.15625, 2.59375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [-0.9375, 1.15625, 2.59375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [0.9375, 1.15625, 1.34375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [-0.9375, 1.15625, 1.34375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [0.9375, 1.15625, 0.09375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [-0.9375, 1.15625, 0.09375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [0.9375, 1.15625, -1.15625],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [-0.9375, 1.15625, -1.15625],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [0.9375, 1.15625, -2.40625],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [-0.9375, 1.15625, -2.40625],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [0, 0.468749, 8.78125],
+      "types" : ["engine_car"],
+			"minValue" : 0.0,
+			"maxValue" : 1.75
+    }
+  ],
+	
+  "collision": [
+		{
+      "pos" : [0, 0.3, -0.25],
+      "width" : 1.0,
+      "height" : 0.15
+    }
+  ],
+
+  "rendering": {
+"animatedObjects":
+	[
+	{
+	"objectName": "Gearshift",
+	"animations":
+		[
+		{
+		"animationType": "rotation",
+		"variable": "engine_gearshift_1",
+		"centerPoint": [0, 0.71875, 7.8125],
+		"axis": [2, 0, 0],
+		"offset": 0.0,
+		"addPriorOffset": false,
+		"clampMin": 0.0,
+		"clampMax": 0.0,
+		"absolute": false,
+		"duration": 0,
+		"forwardsDelay": 0,
+		"reverseDelay": 0
+		}
+		]
+	},
+	{
+	"objectName": "SteeringWheel",
+	"animations":
+		[
+		{
+		"animationType": "rotation",
+		"variable": "rudder",
+		"centerPoint": [0.937499, -7.9375, 7.9375],
+		"axis": [0, -1.0, 0],
+		"offset": 0.0,
+		"addPriorOffset": false,
+		"clampMin": 0.0,
+		"clampMax": 0.0,
+		"absolute": false,
+		"duration": 0,
+		"forwardsDelay": 0,
+		"reverseDelay": 0
+		}
+		]
+	}
+	]
+  }
+}
+
