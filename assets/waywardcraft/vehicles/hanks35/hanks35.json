@@ -1,0 +1,221 @@
+{
+  "definitions" : [
+		{
+		"name" : "Black-Silver Hanks 35",
+			"subName" : "_blacksilver",
+			"extraMaterials" : []
+		},
+		{
+		"name" : "Blue Hanks 35",
+			"subName" : "_blue",
+			"extraMaterials" : []
+		},
+		{
+		"name" : "Green Hanks 35",
+			"subName" : "_green",
+			"extraMaterials" : []
+		},
+		{
+		"name" : "Pink-Purple Hanks 35",
+			"subName" : "_pinkpurple",
+			"extraMaterials" : []
+		},
+		{
+		"name" : "Police Hanks 35",
+			"subName" : "_police",
+			"extraMaterials" : []
+		},
+		{
+		"name" : "Silver-Blue Hanks 35",
+			"subName" : "_silverblue",
+			"extraMaterials" : []
+		},
+		{
+		"name" : "Silver-Maroon Hanks 35",
+			"subName" : "_silvermaroon",
+			"extraMaterials" : []
+		},
+		{
+		"name" : "Taxi Hanks 35",
+			"subName" : "_taxi",
+			"extraMaterials" : []
+		}
+	],
+	
+  "general": {
+	"description" : "",
+    "type" : "car",
+		"openTop" : false,
+		"emptyMass" : 2000,
+		"materials" : ["minecraft:iron_ingot:0:20"]
+  },
+
+  "motorized" : {
+		"isBigTruck" : false,
+    "isFrontWheelDrive" : false,
+		"isRearWheelDrive" : true,
+		"hasCruiseControl" : false,
+		"axleRatio" : 3.55,
+    "dragCoefficient" : 0.6,
+    "fuelCapacity" : 15000,
+    "hornSound" : "mtsofficialpack:horn_car",
+    "instruments": [
+      {
+        "pos": [0.8125,1.03125,2.59],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.03125,
+        "hudX": 160,
+        "hudY": 45,
+        "hudScale": 0.325,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.5,1.03125,2.59],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.03125,
+        "hudX": 200,
+        "hudY": 45,
+        "hudScale": 0.325,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [0.1875,1.03125,2.59],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.03125,
+        "hudX": 240,
+        "hudY": 45,
+        "hudScale": 0.325,
+        "optionalPartNumber": 0
+      },
+			{
+        "pos": [-0.125,1.03125,2.59],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.03125,
+        "hudX": 280,
+        "hudY": 45,
+        "hudScale": 0.325,
+        "optionalPartNumber": 0
+      }
+    ]
+  },	
+	"parts": [
+		//Wheels are 0.1875 inboarded from axle.
+		{
+      "pos" : [1.3125, 0, 3.6875],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25,
+			"turnsWithSteer" : true
+    },
+		{
+      "pos" : [-1.3125, 0, 3.6875],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25,
+			"turnsWithSteer" : true
+    },
+		{
+      "pos" : [1.3125, 0, 0],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25
+    },
+		{
+      "pos" : [-1.3125, 0, 0],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25
+    },
+		{
+      "pos" : [0.5625, 0.59375, 2.09375],
+      "types" : ["seat"],
+      "isController" : true
+    },
+		{
+      "pos" : [-0.5625, 0.59375, 2.09375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [0.5625, 0.59375, 1.125],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [-0.5625, 0.59375, 1.125],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [0, 0.5937495, 3.40625],
+      "types" : ["engine_car"],
+			"exhaustObjects":
+				[
+				{
+				"pos": [0.3125, 0.09375, -1.15625],
+				"velocity": [0, 0, -1.0],
+				"scale": 1.0
+				},
+				{
+				"pos": [-0.3125, 0.09375, -1.15625],
+				"velocity": [0, 0, -1.0],
+				"scale": 1.0
+				}
+				],
+			"minValue" : 0.0,
+			"maxValue" : 1.75
+    }
+  ],
+	
+  "collision": [
+		{
+      "pos" : [0, 0.3, -0.25],
+      "width" : 1.0,
+      "height" : 0.15
+    }
+  ],
+
+  "rendering": {
+"animatedObjects":
+	[
+	{
+	"objectName": "Gearshift",
+	"animations":
+		[
+		{
+		"animationType": "rotation",
+		"variable": "engine_gearshift_1",
+		"centerPoint": [0, 0.21875, 2.375],
+		"axis": [2, 0, 0],
+		"offset": 0.0,
+		"addPriorOffset": false,
+		"clampMin": 0.0,
+		"clampMax": 0.0,
+		"absolute": false,
+		"duration": 0,
+		"forwardsDelay": 0,
+		"reverseDelay": 0
+		}
+		]
+	},
+	{
+	"objectName": "SteeringWheel",
+	"animations":
+		[
+		{
+		"animationType": "rotation",
+		"variable": "rudder",
+		"centerPoint": [0.5625, 1.05637, 2.25],
+		"axis": [0, -0.5, 0.5],
+		"offset": 0.0,
+		"addPriorOffset": false,
+		"clampMin": 0.0,
+		"clampMax": 0.0,
+		"absolute": false,
+		"duration": 0,
+		"forwardsDelay": 0,
+		"reverseDelay": 0
+		}
+		]
+	}
+	]
+  }
+}
+
