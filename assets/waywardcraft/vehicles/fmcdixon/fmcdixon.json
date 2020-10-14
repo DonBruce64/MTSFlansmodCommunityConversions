@@ -1,0 +1,110 @@
+{
+  "definitions" : [
+		{
+		"name" : "FMC Dixon",
+			"subName" : "",
+			"extraMaterials" : []
+		}
+	],
+	
+  "general": {
+	"description" : "",
+    "type" : "car",
+		"openTop" : false,
+		"emptyMass" : 2000,
+		"materials" : ["minecraft:iron_ingot:0:20"]
+  },
+
+  "motorized" : {
+		"isBigTruck" : false,
+    "isFrontWheelDrive" : false,
+		"isRearWheelDrive" : true,
+		"hasCruiseControl" : false,
+		"axleRatio" : 3.55,
+    "dragCoefficient" : 0.6,
+    "fuelCapacity" : 15000,
+    "hornSound" : "mtsofficialpack:horn_car",
+    "instruments": [
+      {
+        "pos": [0.15625,1.46875,1.87],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0234375,
+        "hudX": 160,
+        "hudY": 45,
+        "hudScale": 0.325,
+        "optionalPartNumber": 0
+      },
+      {
+        "pos": [-0.15625,1.46875,1.87],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0234375,
+        "hudX": 240,
+        "hudY": 45,
+        "hudScale": 0.325,
+        "optionalPartNumber": 0
+      }
+    ]
+  },	
+	"parts": [
+		//Wheels are 0.1875 inboarded from axle.
+		{
+      "pos" : [0, 0, 2.59375],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25,
+			"turnsWithSteer" : true
+    },
+		{
+      "pos" : [0, 0, 0],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25
+    },
+		{
+      "pos" : [-1.75, 0, 0.625],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25
+    },
+		{
+      "pos" : [0, 0.6875, 0.75],
+      "types" : ["seat"],
+      "isController" : true
+    },
+		{
+      "pos" : [-0.96875, 0.03125, 0.34375],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [0, 0.21875, 1.65625],
+      "types" : ["engine_car"],
+			"exhaustObjects":
+				[
+				{
+				"pos": [0.40625, 0.46875, 0],
+				"velocity": [0, 0, -1.0],
+				"scale": 1.0
+				},
+				{
+				"pos": [0.40625, 0.21875, 0],
+				"velocity": [0, 0, -1.0],
+				"scale": 1.0
+				}
+				],
+			"minValue" : 0.0,
+			"maxValue" : 1.75
+    }
+  ],
+	
+  "collision": [
+		{
+      "pos" : [0, 0.3, -0.25],
+      "width" : 1.0,
+      "height" : 0.15
+    }
+  ],
+
+  "rendering": {
+  }
+}
+
