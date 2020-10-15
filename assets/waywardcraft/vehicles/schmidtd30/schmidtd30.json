@@ -1,22 +1,22 @@
 {
   "definitions" : [
 		{
-		"name" : "Beige Schmidt D50",
+		"name" : "Beige Schmidt D30",
 			"subName" : "_beige",
 			"extraMaterials" : []
 		},
 		{
-		"name" : "Black Schmidt D50",
+		"name" : "Black Schmidt D30",
 			"subName" : "_black",
 			"extraMaterials" : []
 		},
 		{
-		"name" : "Green Schmidt D50",
+		"name" : "Green Schmidt D30",
 			"subName" : "_green",
 			"extraMaterials" : []
 		},
 		{
-		"name" : "Silver Schmidt D50",
+		"name" : "Silver Schmidt D30",
 			"subName" : "_silver",
 			"extraMaterials" : []
 		}
