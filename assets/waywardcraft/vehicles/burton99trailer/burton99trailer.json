@@ -1,0 +1,69 @@
+{
+  "definitions" : [
+		{
+		"name" : "Burton 99 Trailer",
+			"subName" : "",
+			"extraMaterials" : []
+		}
+	],
+	
+  "general": {
+	"description" : "",
+    "type" : "car",
+		"openTop" : false,
+		"emptyMass" : 2000,
+		"materials" : ["minecraft:iron_ingot:0:20"]
+  },
+
+  "motorized" : {
+		"isTrailer" : true,
+    "isFrontWheelDrive" : false,
+		"isRearWheelDrive" : false,
+		"hasCruiseControl" : false,
+    "dragCoefficient" : 0.6,
+		"hookupType" : "FifthWheel",
+		"hookupPos" : [0.0, 0.843749, 9.0625],
+    "instruments": [ ]
+  },	
+	"parts": [
+		//Wheels are 0.1875 inboarded from axle.
+		{
+      "pos" : [1.4375, 0, 0.625],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25
+    },
+		{
+      "pos" : [-1.4375, 0, 0.625],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25
+    },
+		{
+      "pos" : [1.4375, 0, -0.625],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25
+    },
+		{
+      "pos" : [-1.4375, 0, -0.625],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25
+    }
+  ],
+	
+  "collision": [
+		{
+      "pos" : [0, 0.3, -0.25],
+      "width" : 1.0,
+      "height" : 0.15
+    }
+  ],
+
+  "rendering": {
+"animatedObjects":
+	[]
+  }
+}
+
