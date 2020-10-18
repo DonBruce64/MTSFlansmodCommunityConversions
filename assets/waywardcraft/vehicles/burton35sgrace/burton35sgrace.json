@@ -1,0 +1,136 @@
+{
+  "definitions" : [
+		{
+		"name" : "Burton 35S Grace",
+			"subName" : "",
+			"extraMaterials" : []
+		}
+	],
+	
+  "general": {
+	"description" : "",
+    "type" : "car",
+		"openTop" : false,
+		"emptyMass" : 2000,
+		"materials" : ["minecraft:iron_ingot:0:20"]
+  },
+
+  "motorized" : {
+		"isBigTruck" : true,
+    "isFrontWheelDrive" : false,
+		"isRearWheelDrive" : true,
+		"hasCruiseControl" : false,
+		"axleRatio" : 3.55,
+    "dragCoefficient" : 0.6,
+    "fuelCapacity" : 15000,
+    "hornSound" : "mtsofficialpack:horn_car",
+    "instruments": [ ]
+  },	
+	"parts": [
+		//Wheels are 0.1875 inboarded from axle.
+		{
+      "pos" : [1.5, 0, 5.6875],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25,
+			"turnsWithSteer" : true
+    },
+		{
+      "pos" : [-1.5, 0, 5.6875],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25,
+			"turnsWithSteer" : true
+    },
+		{
+      "pos" : [1.5, 0, 0],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25
+    },
+		{
+      "pos" : [-1.5, 0, 0],
+      "types" : ["ground_wheel"],
+			"minValue" : 0.40,
+			"maxValue" : 1.25
+    },
+		{
+      "pos" : [0.625, 0.687499, 3.6875],
+      "types" : ["seat"],
+      "isController" : true
+    },
+		{
+      "pos" : [-0.625, 0.687499, 3.6875],
+      "types" : ["seat"]
+    },
+		{
+      "pos" : [0, 0.499998, 5.0625],
+      "types" : ["engine_car"],
+			"exhaustObjects":
+				[
+				{
+				"pos": [1.34375, 2.8125, 3.15625],
+				"velocity": [0, 1.0, 0],
+				"scale": 1.0
+				}
+				],
+			"minValue" : 0.0,
+			"maxValue" : 1.75
+    }
+  ],
+	
+  "collision": [
+		{
+      "pos" : [0, 0.3, -0.25],
+      "width" : 1.0,
+      "height" : 0.15
+    }
+  ],
+
+  "rendering": {
+"animatedObjects":
+	[
+	{
+	"objectName": "Gearshift",
+	"animations":
+		[
+		{
+		"animationType": "rotation",
+		"variable": "engine_gearshift_1",
+		"centerPoint": [0, 0.27374, 4.26242],
+		"axis": [1.5, 0, 0],
+		"offset": 0.0,
+		"addPriorOffset": false,
+		"clampMin": 0.0,
+		"clampMax": 0.0,
+		"absolute": false,
+		"duration": 0,
+		"forwardsDelay": 0,
+		"reverseDelay": 0
+		}
+		]
+	},
+	{
+	"objectName": "SteeringWheel",
+	"animations":
+		[
+		{
+		"animationType": "rotation",
+		"variable": "rudder",
+		"centerPoint": [0.625, 1.01479, 4.09831],
+		"axis": [0, -0.5, 0.5],
+		"offset": 0.0,
+		"addPriorOffset": false,
+		"clampMin": 0.0,
+		"clampMax": 0.0,
+		"absolute": false,
+		"duration": 0,
+		"forwardsDelay": 0,
+		"reverseDelay": 0
+		}
+		]
+	}
+	]
+  }
+}
+
