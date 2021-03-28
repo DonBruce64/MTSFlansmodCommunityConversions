@@ -1,0 +1,465 @@
+{
+  "motorized": {
+    "isAircraft": true,
+    "emptyMass": 800,
+    "fuelCapacity": 5000,
+    "brakingFactor": 1.0,
+    "tailDistance": 8.0,
+    "wingSpan": 12.5,
+    "wingArea": 28.0,
+    "aileronArea": 3.2,
+    "elevatorArea": 2.8,
+    "rudderArea": 1.5,
+    "instruments": [
+      {
+        "pos": [-0.906067,0.530774,0.749],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0325,
+        "hudX": 60,
+        "hudY": 36,
+        "hudScale": 0.3125
+      },
+      {
+        "pos": [-0.65618,0.530774,0.749],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0325,
+        "hudX": 100,
+        "hudY": 36,
+        "hudScale": 0.3125
+      },
+      {
+        "pos": [-0.40605,0.530774,0.749],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0325,
+        "hudX": 140,
+        "hudY": 36,
+        "hudScale": 0.3125
+      },
+      {
+        "pos": [-0.156373,0.530774,0.749],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0325,
+        "hudX": 180,
+        "hudY": 36,
+        "hudScale": 0.3125
+      },
+      {
+        "pos": [0.156373,0.530774,0.749],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0325,
+        "hudX": 220,
+        "hudY": 36,
+        "hudScale": 0.3125
+      },
+      {
+        "pos": [0.40605,0.530774,0.749],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0325,
+        "hudX": 260,
+        "hudY": 36,
+        "hudScale": 0.3125
+      },
+      {
+        "pos": [0.65618,0.530774,0.749],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0325,
+        "hudX": 300,
+        "hudY": 36,
+        "hudScale": 0.3125
+      },
+      {
+        "pos": [0.906067,0.530774,0.749],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0325,
+        "hudX": 340,
+        "hudY": 36,
+        "hudScale": 0.3125
+      }
+    ]
+  },
+  "parts": [
+    {
+      "pos": [0.0,0.4375,2.625],
+      "minValue": 0.15,
+      "maxValue": 1.25,
+      "types": ["engine_aircraft_horizontal"],
+			"exhaustObjects":
+				[
+				{
+				"pos": [0, 2.0, 0.5],
+				"velocity": [0, 0, -1.0],
+				"scale": 1.0
+				},
+				{
+				"pos": [0, 2.0, 0.5],
+				"velocity": [0, 0, -1.0],
+				"scale": 1.0
+				}
+				]
+    },
+    {
+      "pos": [0.5625,0.03125,-0.0625],
+      "isController": true,
+      "types": ["seat"]
+    },
+		{
+      "pos": [-0.5625,0.03125,-0.0625],
+      "types": ["seat"]
+    },
+		{
+      "pos": [0.5625,0.03125,-1.1875],
+      "types": ["seat","interactable_crate"]
+    },
+		{
+      "pos": [-0.5625,0.03125,-1.1875],
+      "types": ["seat","interactable_crate"]
+    }
+  ],
+  "collision": [
+    {
+        "pos":[0.90701, 1.61427, -0.0736],
+        "width": 1.8123, 
+        "height": 0.217, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[2.71931, 1.61427, -0.0736],
+        "width": 1.8123, 
+        "height": 0.217, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[4.53161, 1.61427, -0.0736],
+        "width": 1.8123, 
+        "height": 0.217, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.0, -0.42871, -0.48808],
+        "width": 2.49664, 
+        "height": 0.06171, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.0, 0.56748, -2.51469],
+        "width": 1.89933, 
+        "height": 1.81771, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.0, 1.53038, -1.33859],
+        "width": 2.03301, 
+        "height": 0.10836, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.0, 0.74771, -4.05935],
+        "width": 1.34219, 
+        "height": 1.28451, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-0.0, 0.74771, -5.07982],
+        "width": 0.85733, 
+        "height": 0.82049, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.0, 1.82632, -5.07982],
+        "width": 0.22764, 
+        "height": 1.45395, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.0, 1.91383, -4.64776],
+        "width": 0.22764, 
+        "height": 1.61795, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.0, 1.90289, -4.17741],
+        "width": 0.22764, 
+        "height": 1.30512, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.0, 1.6349, -3.76722],
+        "width": 0.22764, 
+        "height": 0.61068, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.0, 1.56927, -5.50641],
+        "width": 0.22764, 
+        "height": 1.84162, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.0, 1.52552, -5.87285],
+        "width": 0.22764, 
+        "height": 1.57679, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[2.03551, 1.34166, -4.78229],
+        "width": 1.04245, 
+        "height": 0.18103, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.99305, 1.34166, -4.78229],
+        "width": 1.04245, 
+        "height": 0.18103, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.0, 1.34166, -4.78229],
+        "width": 1.04245, 
+        "height": 0.18103, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-2.03551, 1.34166, -4.78229],
+        "width": 1.04245, 
+        "height": 0.18103, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-0.99306, 1.34166, -4.78229],
+        "width": 1.04245, 
+        "height": 0.18103, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[3.72281, 0.57264, -0.1169],
+        "width": 0.24668, 
+        "height": 1.98363, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[3.72281, 0.57606, 0.50294],
+        "width": 0.24668, 
+        "height": 1.98363, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[3.72281, -0.62411, 0.74432],
+        "width": 0.61275, 
+        "height": 0.652, 
+        "collidesWithLiquids": true,
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[3.72281, -0.62411, -0.06681],
+        "width": 0.61275, 
+        "height": 0.652, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[3.72281, -0.62411, -0.86933],
+        "width": 0.61275, 
+        "height": 0.652, 
+        "collidesWithLiquids": true,
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-3.72281, 0.57264, -0.1169],
+        "width": 0.24668, 
+        "height": 1.98363, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-3.72281, 0.57606, 0.50294],
+        "width": 0.24668, 
+        "height": 1.98363, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-3.72281, -0.62411, 0.74432],
+        "width": 0.61275, 
+        "height": 0.652, 
+        "collidesWithLiquids": true,
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-3.72281, -0.62411, -0.06681],
+        "width": 0.61275, 
+        "height": 0.652,
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-3.72281, -0.62411, -0.86933],
+        "width": 0.61275, 
+        "height": 0.652, 
+        "collidesWithLiquids": true,
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-0.0, 0.14386, 1.12138],
+        "width": 0.82416, 
+        "height": 1.23998, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-0.69729, 0.14386, 1.12138],
+        "width": 0.61052, 
+        "height": 1.16386, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.70425, 0.14386, 1.12277],
+        "width": 0.61052, 
+        "height": 1.16386, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-0.90701, 1.61427, -0.0736],
+        "width": 1.8123, 
+        "height": 0.217, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-2.71931, 1.61427, -0.0736],
+        "width": 1.8123, 
+        "height": 0.217, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-4.53161, 1.61427, -0.0736],
+        "width": 1.8123, 
+        "height": 0.217, 
+        "armorThickness": 0.0
+    }
+  ],
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Henderly P2 Skipjack",
+      "extraMaterials": []
+    }
+  ],
+  "rendering": {
+    "textObjects": [],
+    "animatedObjects": [
+      {
+        "objectName": "aileronL",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [3.4375,1.59375,-0.3125],
+            "axis": [1.0, 0, 0]
+          }
+        ]
+      },
+      {
+        "objectName": "aileronR",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [-3.4375,1.59375,-0.3125],
+            "axis": [-1.0, 0, 0]
+          }
+        ]
+      },
+      {
+        "objectName": "elevator",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [0.0,1.34375,-4.875],
+            "axis": [1.0,0.0,0.0]	
+          }
+        ]
+      },
+      {
+        "objectName": "rudder",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.0,0.0,-5.3125],
+            "axis": [0.0,1.0,0.0]
+          }
+        ]
+      },
+			{
+        "objectName": "doorFL",
+        "animations": [
+					{
+            "animationType": "rotation",
+            "variable": "p_brake",
+            "centerPoint": [1.21875,0,0.5625],
+            "axis": [0.0,-60.0,0],
+						"duration": 30
+          }
+        ]
+      },
+			{
+        "objectName": "doorFR",
+        "animations": [
+					{
+            "animationType": "rotation",
+            "variable": "p_brake",
+            "centerPoint": [-1.21875,0,0.5625],
+            "axis": [0.0,60.0,0],
+						"duration": 30
+          }
+        ]
+      },
+			{
+        "objectName": "doorRL",
+        "animations": [
+					{
+            "animationType": "rotation",
+            "variable": "p_brake",
+            "centerPoint": [1.21875,0,-0.5],
+            "axis": [0.0,-60.0,0],
+						"duration": 30
+          }
+        ]
+      },
+			{
+        "objectName": "doorRR",
+        "animations": [
+					{
+            "animationType": "rotation",
+            "variable": "p_brake",
+            "centerPoint": [-1.21875,0,-0.5],
+            "axis": [0.0,60.0,0],
+						"duration": 30
+          }
+        ]
+      },
+      {
+        "objectName": "yokeL",
+        "animations": [
+          {
+            "animationType": "translation",
+            "variable": "elevator",
+            "centerPoint": [0.59375,0.40625,0.75],
+            "axis": [0,0.0,-0.001388],
+						"offset" : -0.0625
+          },
+					{
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [0.59375,0.40625,0.75],
+            "axis": [0.0,0.0,1.0]
+          }
+			  ]
+      }
+    ],
+    "sounds": []
+  },
+  "prefixFolders": "planes/henderly_p3_adventurer/",
+  "packID": "waywardcraft",
+  "systemName": "henderly_p3_adventurer",
+  "classification": "vehicle",
+  "general": {
+    "description": "",
+    "materials": ["minecraft:iron_ingot:0:20"]
+  }
+}
