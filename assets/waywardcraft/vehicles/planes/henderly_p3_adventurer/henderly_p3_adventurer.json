@@ -1,0 +1,785 @@
+{
+  "motorized": {
+    "isAircraft": true,
+    "emptyMass": 2000,
+    "fuelCapacity": 25000,
+    "brakingFactor": 1.0,
+    "tailDistance": 12.0,
+    "wingSpan": 22.6,
+    "wingArea": 70.0,
+    "aileronArea": 2.75,
+    "elevatorArea": 7.5,
+    "rudderArea": 5.0,
+    "instruments": [
+      {
+        "pos": [0.937499,1.428336,5.34],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0390625,
+        "hudX": 40,
+        "hudY": 36,
+        "hudScale": 0.45
+      },
+      {
+        "pos": [0.312499,1.428336,5.34],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0390625,
+        "hudX": 140,
+        "hudY": 36,
+        "hudScale": 0.45
+      },
+      {
+        "pos": [0.0,1.49083,5.34],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0234375,
+        "hudX": 200,
+        "hudY": 36,
+        "hudScale": 0.37545
+      },
+			{
+        "pos": [-0.312499,1.428336,5.34],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0390625,
+        "hudX": 260,
+        "hudY": 36,
+        "hudScale": 0.45
+      },
+			{
+        "pos": [-0.937499,1.428336,5.34],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0390625,
+        "hudX": 360,
+        "hudY": 36,
+        "hudScale": 0.45
+      },
+			{
+        "pos": [0.312499,1.11583,5.34],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0234375,
+        "hudX": 140,
+        "hudY": 110,
+        "hudScale": 0.37545
+      },
+      {
+        "pos": [0.0,1.24083,5.34],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0234375,
+        "hudX": 200,
+        "hudY": 90,
+        "hudScale": 0.37545
+      },
+			{
+        "pos": [-0.312499,1.11583,5.34],
+        "rot": [0.0,0.0,0.0],
+        "scale": 0.0234375,
+        "hudX": 260,
+        "hudY": 110,
+        "hudScale": 0.37545
+      }
+    ]
+  },
+  "parts": [
+    {
+      "pos": [0.0,0.553333,-8.36711],
+      "turnsWithSteer": true,
+      "minValue": 0.5,
+      "maxValue": 1.15,
+      "types": ["ground_wheel"],
+      "animations": []
+    },
+    {
+      "pos": [-3.5,-0.946669,2.22664],
+      "minValue": 0.85,
+      "maxValue": 1.15,
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [3.5,-0.946669,2.22664],
+      "minValue": 0.85,
+      "maxValue": 1.15,
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [3.53125,0.897079,4.41414],
+      "minValue": 0.5,
+      "maxValue": 2.25,
+      "types": ["engine_aircraft_radial"],
+      "particleObjects": [
+        {
+          "type": "smoke",
+          "color": "#D9D9D9",
+          "toColor": "#D9D9D9",
+          "transparency": 0.25,
+          "toTransparency": 0.25,
+          "scale": 1.0,
+          "pos": [4.5625,1.11583,2.22664],
+          "velocityVector": [0.0,0.0,-1.0],
+          "quantity": 1
+        },
+        {
+          "type": "smoke",
+          "color": "#D9D9D9",
+          "toColor": "#D9D9D9",
+          "transparency": 0.25,
+          "toTransparency": 0.25,
+          "scale": 1.0,
+          "pos": [4.5625,1.11583,2.22664],
+          "velocityVector": [0.0,0.0,-1.0],
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "pos": [-3.53125,0.897079,4.41414],
+      "minValue": 0.5,
+      "maxValue": 2.25,
+      "types": ["engine_aircraft_radial"],
+      "particleObjects": [
+        {
+          "type": "smoke",
+          "color": "#D9D9D9",
+          "toColor": "#D9D9D9",
+          "transparency": 0.25,
+          "toTransparency": 0.25,
+          "scale": 1.0,
+          "pos": [-4.5625,1.11583,2.22664],
+          "velocityVector": [0.0,0.0,-1.0],
+          "quantity": 1
+        },
+        {
+          "type": "smoke",
+          "color": "#D9D9D9",
+          "toColor": "#D9D9D9",
+          "transparency": 0.25,
+          "toTransparency": 0.25,
+          "scale": 1.0,
+          "pos": [-4.5625,1.11583,2.22664],
+          "velocityVector": [0.0,0.0,-1.0],
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "pos": [0.5937495,0.959579,4.19539],
+      "isController": true,
+      "types": ["seat"]
+    },
+    {
+      "pos": [-0.593749,0.959579,4.19539],
+      "isController": true,
+      "types": ["seat"]
+    },
+    {
+      "pos": [0.5937495,0.959579,2.75789],
+      "maxValue": 3.0,
+      "types": ["seat","interactable_crate"]
+    },
+    {
+      "pos": [-0.593749,0.959579,2.75789],
+      "maxValue": 3.0,
+      "types": ["seat","interactable_crate"]
+    },
+    {
+      "pos": [0.5937495,0.959579,1.50789],
+      "maxValue": 3.0,
+      "types": ["seat","interactable_crate"]
+    },
+    {
+      "pos": [-0.593749,0.959579,1.50789],
+      "maxValue": 3.0,
+      "types": ["seat","interactable_crate"]
+    },
+    {
+      "pos": [0.5937495,0.959579,0.257888],
+      "maxValue": 3.0,
+      "types": ["seat","interactable_crate"]
+    },
+    {
+      "pos": [-0.593749,0.959579,0.257888],
+      "maxValue": 3.0,
+      "types": ["seat","interactable_crate"]
+    },
+    {
+      "pos": [0.5937495,0.959579,-0.992112],
+      "maxValue": 3.0,
+      "types": ["seat","interactable_crate"]
+    },
+    {
+      "pos": [-0.593749,0.959579,-0.992112],
+      "maxValue": 3.0,
+      "types": ["seat","interactable_crate"]
+    },
+    {
+      "pos": [0.5937495,0.959579,-2.24211],
+      "maxValue": 3.0,
+      "types": ["seat","interactable_crate"]
+    },
+    {
+      "pos": [-0.593749,0.959579,-2.24211],
+      "maxValue": 3.0,
+      "types": ["seat","interactable_crate"]
+    }
+  ],
+  "collision": [
+    {
+      "pos": [0.375,0.17079,-3.58724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,-3.58724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.17079,-2.83724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,-2.83724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.17079,-2.08724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,-2.08724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.17079,-1.33724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,-1.33724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.17079,-0.58724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,-0.58724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.17079,0.16276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,0.16276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.17079,0.91276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,0.91276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.17079,1.66276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,1.66276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.17079,2.41276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,2.41276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.17079,3.16276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,3.16276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.17079,3.91276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,3.91276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.17079,4.66276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,4.66276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.17079,5.41276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,0.17079,5.41276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,0.99233,5.78914],
+      "width": 0.75,
+      "height": 1.35
+    },
+    {
+      "pos": [-0.375,0.99233,5.78914],
+      "width": 0.75,
+      "height": 1.35
+    },
+    {
+      "pos": [-0.0,0.99233,6.45598],
+      "width": 1.35658,
+      "height": 1.125
+    },
+    {
+      "pos": [0.0,0.99233,6.45598],
+      "width": 1.35658,
+      "height": 1.125
+    },
+    {
+      "pos": [0.375,2.63233,-3.58724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,2.63233,-3.58724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,2.63233,-2.83724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,2.63233,-2.83724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,2.63233,-2.08724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,2.63233,-2.08724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,2.63233,-1.33724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,2.63233,-1.33724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,2.63233,-0.58724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,2.63233,-0.58724],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,2.63233,0.16276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,2.63233,0.16276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,2.63233,0.91276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,2.63233,0.91276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,2.63233,1.66276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,2.63233,1.66276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,2.63233,2.41276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,2.63233,2.41276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,2.63233,3.16276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,2.63233,3.16276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,2.63233,3.91276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,2.63233,3.91276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [0.375,2.63233,4.66276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [-0.375,2.63233,4.66276],
+      "width": 0.75,
+      "height": 0.375
+    },
+    {
+      "pos": [2.53125,0.39002,2.10437],
+      "width": 2.5,
+      "height": 0.75
+    },
+    {
+      "pos": [2.53125,0.39002,-0.39563],
+      "width": 2.5,
+      "height": 0.75
+    },
+    {
+      "pos": [4.71875,0.76894,1.93869],
+      "width": 1.875,
+      "height": 0.5625
+    },
+    {
+      "pos": [4.71875,0.76894,0.06369],
+      "width": 1.875,
+      "height": 0.5625
+    },
+    {
+      "pos": [6.59375,0.98518,1.93869],
+      "width": 1.875,
+      "height": 0.5625
+    },
+    {
+      "pos": [6.59375,0.98518,0.06369],
+      "width": 1.875,
+      "height": 0.5625
+    },
+    {
+      "pos": [8.46875,1.27911,1.00119],
+      "width": 1.875,
+      "height": 0.5625
+    },
+    {
+      "pos": [10.34375,1.27911,1.00119],
+      "width": 1.875,
+      "height": 0.5625
+    },
+    {
+      "pos": [0.375,0.91003,-4.33724],
+      "width": 0.75,
+      "height": 1.0
+    },
+    {
+      "pos": [-0.375,0.91003,-4.33724],
+      "width": 0.75,
+      "height": 1.0
+    },
+    {
+      "pos": [0.375,1.91003,-4.33724],
+      "width": 0.75,
+      "height": 1.0
+    },
+    {
+      "pos": [-0.375,1.91003,-4.33724],
+      "width": 0.75,
+      "height": 1.0
+    },
+    {
+      "pos": [0.0,1.55333,-5.46224],
+      "width": 1.5,
+      "height": 1.5
+    },
+    {
+      "pos": [0.0,1.55333,-6.96224],
+      "width": 1.5,
+      "height": 1.5
+    },
+    {
+      "pos": [0.0,1.55333,-8.46224],
+      "width": 0.75,
+      "height": 1.5
+    },
+    {
+      "pos": [1.09375,2.63233,-8.27336],
+      "width": 1.5,
+      "height": 0.375
+    },
+    {
+      "pos": [2.59375,2.63233,-8.27336],
+      "width": 1.5,
+      "height": 0.375
+    },
+    {
+      "pos": [-1.09375,2.63233,-8.27336],
+      "width": 1.5,
+      "height": 0.375
+    },
+    {
+      "pos": [-2.59375,2.63233,-8.27336],
+      "width": 1.5,
+      "height": 0.375
+    },
+    {
+      "pos": [-2.53125,0.39002,2.10437],
+      "width": 2.5,
+      "height": 0.75
+    },
+    {
+      "pos": [-2.53125,0.39002,-0.39563],
+      "width": 2.5,
+      "height": 0.75
+    },
+    {
+      "pos": [-4.71875,0.76894,1.93869],
+      "width": 1.875,
+      "height": 0.5625
+    },
+    {
+      "pos": [-4.71875,0.76894,0.06369],
+      "width": 1.875,
+      "height": 0.5625
+    },
+    {
+      "pos": [-6.59375,0.98518,1.93869],
+      "width": 1.875,
+      "height": 0.5625
+    },
+    {
+      "pos": [-6.59375,0.98518,0.06369],
+      "width": 1.875,
+      "height": 0.5625
+    },
+    {
+      "pos": [-8.46875,1.27911,1.00119],
+      "width": 1.875,
+      "height": 0.5625
+    },
+    {
+      "pos": [-10.3437,1.27911,1.00119],
+      "width": 1.875,
+      "height": 0.5625
+    }
+  ],
+  "definitions": [
+    {
+      "subName": "_black",
+      "name": "Black Henderly P3 Adventurer",
+      "extraMaterials": []
+    },
+		{
+      "subName": "_blue",
+      "name": "Blue Henderly P3 Adventurer",
+      "extraMaterials": []
+    },
+		{
+      "subName": "_green",
+      "name": "Green Henderly P3 Adventurer",
+      "extraMaterials": []
+    },
+		{
+      "subName": "_red",
+      "name": "Red Henderly P3 Adventurer",
+      "extraMaterials": []
+    },
+		{
+      "subName": "_stock",
+      "name": "Stock Henderly P3 Adventurer",
+      "extraMaterials": []
+    }
+  ],
+  "rendering": {
+    "textObjects": [],
+    "animatedObjects": [
+      {
+        "objectName": "aileronL",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [5.21875,0.80333,0.039138],
+            "axis": [0.9753,0.098765,0.1975]
+          }
+        ]
+      },
+      {
+        "objectName": "aileronR",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [-5.21875,0.80333,0.039138],
+            "axis": [-0.9753,0.098765,0.1975]
+          }
+        ]
+      },
+      {
+        "objectName": "elevator",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [0.0,2.55333,-8.08586],
+            "axis": [1.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "rudderL",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [3.21875,0.0,-9.02336],
+            "axis": [0.0,1.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "rudderR",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [-3.21875,0.0,-9.02336],
+            "axis": [0.0,1.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "bodyDoor",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "p_brake",
+            "centerPoint": [1.25,0.0,-2.71086],
+            "axis": [0.0,-120.0,0.0],
+            "duration": 30
+          }
+        ]
+      },
+      {
+        "objectName": "leftYokeMount",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [1.09375,0.647079,5.28914],
+            "axis": [-0.5,0.0,0.0],
+            "offset": 10.0
+          }
+        ]
+      },
+      {
+        "objectName": "leftYoke",
+        "applyAfter": "leftYokeMount",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [0.593749,1.33458,5.16414],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "rightYokeMount",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [-1.09375,0.647079,5.28914],
+            "axis": [-0.5,0.0,0.0],
+            "offset": 10.0
+          }
+        ]
+      },
+      {
+        "objectName": "rightYoke",
+        "applyAfter": "rightYokeMount",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [-0.593749,1.33458,5.16414],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      }
+    ],
+    "sounds": []
+  },
+  "prefixFolders": "planes/henderly_p3_adventurer/",
+  "packID": "waywardcraft",
+  "systemName": "henderly_p3_adventurer",
+  "classification": "vehicle",
+  "general": {
+    "description": "",
+    "materials": ["minecraft:iron_ingot:0:20"]
+  }
+}
