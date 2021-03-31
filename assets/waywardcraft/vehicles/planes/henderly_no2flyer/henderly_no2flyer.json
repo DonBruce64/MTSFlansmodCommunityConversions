@@ -1,0 +1,448 @@
+{
+  "motorized": {
+    "isAircraft": true,
+    "emptyMass": 300,
+    "fuelCapacity": 5000,
+    "brakingFactor": 1.0,
+    "tailDistance": 4.125,
+    "wingSpan": 8.75,
+    "wingArea": 32,
+    "aileronArea": 1.5625,
+    "elevatorArea": 1.25,
+    "rudderArea": 1.65,
+    "instruments": [
+    ]
+  },
+  "parts": [
+    {
+      "pos": [0.0,-0.5625,-4.125],
+      "turnsWithSteer": true,
+      "minValue": 0.35,
+      "maxValue": 1.25,
+      "types": ["ground_wheel"],
+      "animations": []
+    },
+    {
+      "pos": [-0.8125,-0.71875,1.375],
+      "minValue": 0.35,
+      "maxValue": 1.25,
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [0.8125,-0.71875,1.375],
+      "minValue": 0.35,
+      "maxValue": 1.25,
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [0.0,0.0625,2.125],
+      "minValue": 0.15,
+      "maxValue": 1.25,
+      "types": ["engine_aircraft_horizontal"],
+			"exhaustObjects":
+				[
+				{
+				"pos": [0, 2.3125, -1.6875],
+				"velocity": [0, 0, -1.0],
+				"scale": 1.0
+				},
+				{
+				"pos": [0, 2.3125, -1.6875],
+				"velocity": [0, 0, -1.0],
+				"scale": 1.0
+				}
+				]
+    },
+    {
+      "pos": [0,-0.0625,0.5],
+      "isController": true,
+      "types": ["seat"]
+    },
+		{
+      "pos": [0,-0.0625,-0.6875],
+      "types": ["seat"]
+    }
+  ],
+  "collision": [
+    {
+        "pos":[0.0, -0.40792, 0.87416],
+        "width": 1.25, 
+        "height": 0.06531
+    },
+    {
+        "pos":[0.0, -0.40792, -0.37584],
+        "width": 1.25, 
+        "height": 0.06531
+    },
+    {
+        "pos":[0.0, 1.96286, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[0.0, 1.96286, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[0.875, 1.96286, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[0.875, 1.96286, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[1.75, 1.96286, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[1.75, 1.96286, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[2.625, 1.96286, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[2.625, 1.96286, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[3.5, 1.96286, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[3.5, 1.96286, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-3.5, 1.96286, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-3.5, 1.96286, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-2.625, 1.96286, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-2.625, 1.96286, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-1.75, 1.96286, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-1.75, 1.96286, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-0.875, 1.96286, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-0.875, 1.96286, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[0.0, 0.09523, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[0.0, 0.09523, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[0.875, 0.09523, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[0.875, 0.09523, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[1.75, 0.09523, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[1.75, 0.09523, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[2.625, 0.09523, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[2.625, 0.09523, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[3.5, 0.09523, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[3.5, 0.09523, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-3.5, 0.09523, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-3.5, 0.09523, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-2.625, 0.09523, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-2.625, 0.09523, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-1.75, 0.09523, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-1.75, 0.09523, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-0.875, 0.09523, 1.00453],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[-0.875, 0.09523, 0.12953],
+        "width": 0.875, 
+        "height": 0.2
+    },
+    {
+        "pos":[0.0, 0.06651, -1.50084],
+        "width": 1.0, 
+        "height": 1.0
+    },
+    {
+        "pos":[0.0, 0.15179, -2.37584],
+        "width": 0.75, 
+        "height": 0.82943
+    },
+    {
+        "pos":[0.0, 0.15179, -3.00084],
+        "width": 0.5, 
+        "height": 0.82943
+    },
+    {
+        "pos":[0.0, 0.18333, -3.50084],
+        "width": 0.5, 
+        "height": 0.76637
+    },
+    {
+        "pos":[0.0, 0.18333, -4.00084],
+        "width": 0.5, 
+        "height": 0.76637
+    },
+    {
+        "pos":[0.0, 0.2257, -4.50084],
+        "width": 0.5, 
+        "height": 0.68162
+    },
+    {
+        "pos":[0.98796, 0.25025, -4.07978],
+        "width": 1.19005, 
+        "height": 0.13927
+    },
+    {
+        "pos":[-0.98796, 0.25025, -4.07978],
+        "width": 1.19005, 
+        "height": 0.13927
+    },
+    {
+        "pos":[0.0, 1.24663, -4.37584],
+        "width": 0.25, 
+        "height": 1.36025
+    },
+    {
+        "pos":[0.0, 1.12381, -4.87584],
+        "width": 0.25, 
+        "height": 2.49043
+    },
+    {
+        "pos":[0.0, 0.98846, -3.87584],
+        "width": 0.25, 
+        "height": 0.84389
+    },
+    {
+        "pos":[0.0, 1.37659, -5.37584],
+        "width": 0.25, 
+        "height": 1.98486
+    },
+    {
+        "pos":[0.0, 1.46968, -1.3125],
+        "width": 0.25, 
+        "height": 1.80633
+    },
+    {
+        "pos":[1.24967, 1.03611, 1.31904],
+        "width": 0.13915, 
+        "height": 1.67525
+    },
+    {
+        "pos":[1.24967, 1.03611, 0.43824],
+        "width": 0.13915, 
+        "height": 1.67525
+    },
+    {
+        "pos":[2.50156, 1.03611, 1.31904],
+        "width": 0.13915, 
+        "height": 1.67525
+    },
+    {
+        "pos":[2.50156, 1.03611, 0.43824],
+        "width": 0.13915, 
+        "height": 1.67525
+    },
+    {
+        "pos":[-2.50156, 1.03611, 1.31904],
+        "width": 0.13915, 
+        "height": 1.67525
+    },
+    {
+        "pos":[-2.50156, 1.03611, 0.43824],
+        "width": 0.13915, 
+        "height": 1.67525
+    },
+    {
+        "pos":[3.74805, 1.03611, 1.31904],
+        "width": 0.13915, 
+        "height": 1.67525
+    },
+    {
+        "pos":[3.74805, 1.03611, 0.43824],
+        "width": 0.13915, 
+        "height": 1.67525
+    },
+    {
+        "pos":[-3.74805, 1.03611, 1.31904],
+        "width": 0.13915, 
+        "height": 1.67525
+    },
+    {
+        "pos":[-3.74805, 1.03611, 0.43824],
+        "width": 0.13915, 
+        "height": 1.67525
+    },
+    {
+        "pos":[-1.24967, 1.03611, 1.31904],
+        "width": 0.13915, 
+        "height": 1.67525
+    },
+    {
+        "pos":[-1.24967, 1.03611, 0.43824],
+        "width": 0.13915, 
+        "height": 1.67525
+    }
+		],
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Henderly No. 2 Flyer",
+      "extraMaterials": []
+    }
+  ],
+  "rendering": {
+    "textObjects": [],
+    "animatedObjects": [
+      {
+        "objectName": "aileronL",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [2.5,0.09375,0.25],
+            "axis": [1.0, 0, 0]
+          }
+        ]
+      },
+      {
+        "objectName": "aileronR",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [-2.5,0.09375,0.25],
+            "axis": [-1.0, 0, 0]
+          }
+        ]
+      },
+      {
+        "objectName": "elevator",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [0.0,0.25,-4.125],
+            "axis": [1.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "rudder",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.0,0.0,-4.75],
+            "axis": [0.0,1.0,0.0]
+          }
+        ]
+      }
+    ],
+    "sounds": []
+  },
+  "prefixFolders": "planes/henderly_p3_adventurer/",
+  "packID": "waywardcraft",
+  "systemName": "henderly_p3_adventurer",
+  "classification": "vehicle",
+  "general": {
+    "description": "",
+    "materials": ["minecraft:iron_ingot:0:20"]
+  }
+}
