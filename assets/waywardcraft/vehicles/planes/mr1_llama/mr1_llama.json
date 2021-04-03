@@ -8,7 +8,7 @@
     "wingSpan": 7.375,
     "wingArea": 13.25,
     "aileronArea": 0.9375,
-    "elevatorArea": 0.8,
+    "elevatorArea": 2.0,
     "rudderArea": 1.9,
     "instruments": [
     ]
