@@ -1,7 +1,7 @@
 {
   "motorized": {
     "isAircraft": true,
-    "emptyMass": 300,
+    "emptyMass": 350,
     "fuelCapacity": 5000,
     "brakingFactor": 1.0,
     "tailDistance": 4.125,
