@@ -1,0 +1,559 @@
+{
+  "motorized": {
+    "isAircraft": true,
+    "emptyMass": 300,
+    "fuelCapacity": 5000,
+    "brakingFactor": 1.0,
+    "tailDistance": 6.0,
+    "wingSpan": 13.25,
+    "wingArea": 47.5,
+    "aileronArea": 1.875,
+    "elevatorArea": 1.875,
+    "rudderArea": 1.5,
+    "instruments": [
+    ]
+  },
+  "parts": [
+    {
+      "pos": [0.0,-0.4375,-4.40625],
+      "turnsWithSteer": true,
+      "minValue": 0.35,
+      "maxValue": 1.25,
+      "types": ["ground_wheel"],
+      "animations": []
+    },
+    {
+      "pos": [-0.6875,-0.65625,1.78125],
+      "minValue": 0.35,
+      "maxValue": 1.25,
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [0.6875,-0.65625,1.78125],
+      "minValue": 0.35,
+      "maxValue": 1.25,
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [0.0,1.3125,-2.75],
+      "minValue": 0.15,
+      "maxValue": 1.25,
+			//Should be swapped for a pusher-style engine when we get one.
+      "types": ["engine_aircraft_horizontal"]
+    },
+    {
+      "pos": [0,0.75,0.6875],
+      "isController": true,
+      "types": ["seat"]
+    }
+  ],
+  "collision": [
+    {
+        "pos":[-0.0251, 2.226, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-0.0251, 1.24956, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.87402, 2.226, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.87402, 1.24956, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[1.77313, 2.226, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[1.77313, 1.24956, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[2.67224, 1.24956, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[3.57136, 1.24956, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, 2.22638, 0.06486],
+        "width": 1.81897, 
+        "height": 0.17196, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[1.83859, 2.22638, 0.06486],
+        "width": 1.81897, 
+        "height": 0.17196, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[3.65631, 2.22638, 0.06486],
+        "width": 1.81897, 
+        "height": 0.17196, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[5.47206, 2.22638, 0.06486],
+        "width": 1.81897, 
+        "height": 0.17196, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, -0.2815, 0.06486],
+        "width": 1.81897, 
+        "height": 0.19515, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[1.83859, -0.2815, 0.06486],
+        "width": 1.81897, 
+        "height": 0.19515, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[3.65631, -0.2815, 0.06486],
+        "width": 1.81897, 
+        "height": 0.19515, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[5.47206, -0.2815, 0.06486],
+        "width": 1.81897, 
+        "height": 0.19515, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, 0.96708, -1.07044],
+        "width": 0.85457, 
+        "height": 0.34114, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, 0.96708, -1.97087],
+        "width": 0.85457, 
+        "height": 0.34114, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, -0.28254, -1.07044],
+        "width": 0.85457, 
+        "height": 0.2979, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, -0.28254, -1.97087],
+        "width": 0.85457, 
+        "height": 0.2979, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, -0.28254, 1.44111],
+        "width": 0.85457, 
+        "height": 0.2979, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, -0.28254, 2.33635],
+        "width": 0.85457, 
+        "height": 0.2979, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, -0.18418, -3.00181],
+        "width": 0.85457, 
+        "height": 0.34114, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, 0.27646, -4.00453],
+        "width": 0.85457, 
+        "height": 1.74565, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, 0.64219, -5.05418],
+        "width": 0.85457, 
+        "height": 1.0365, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, 0.79464, -6.0704],
+        "width": 0.85457, 
+        "height": 0.68264, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, 0.9018, -6.93468],
+        "width": 0.85457, 
+        "height": 0.48161, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, 1.13297, -7.42134],
+        "width": 0.1937, 
+        "height": 1.52723, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.47008, 1.13297, -7.41375],
+        "width": 0.1937, 
+        "height": 1.52723, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.47388, 1.13297, -7.72898],
+        "width": 0.1937, 
+        "height": 1.52723, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.48185, 1.13297, -8.02903],
+        "width": 0.1937, 
+        "height": 1.52723, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-0.43499, 1.13297, -7.41375],
+        "width": 0.1937, 
+        "height": 1.52723, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-0.43119, 1.13297, -7.72898],
+        "width": 0.1937, 
+        "height": 1.52723, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-0.42322, 1.13297, -8.02903],
+        "width": 0.1937, 
+        "height": 1.52723, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[5.99441, 0.95545, -0.08972],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[5.99441, 0.95545, 0.73027],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[4.72211, 0.95545, -0.08972],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[4.72211, 0.95545, 0.73027],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[3.48426, 0.95545, -0.08972],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[3.48426, 0.95545, 0.73027],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[2.26334, 0.95545, -0.08972],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[2.26334, 0.95545, 0.73027],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[1.00629, 0.95545, -0.08972],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[1.00629, 0.95545, 0.73027],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-0.87402, 2.226, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-0.87402, 1.24956, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-1.77313, 2.226, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-1.77313, 1.24956, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-2.67224, 1.24956, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-3.57136, 1.24956, 3.89093],
+        "width": 0.89911, 
+        "height": 0.07498, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-1.83859, 2.22638, 0.06486],
+        "width": 1.81897, 
+        "height": 0.17196, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-3.65631, 2.22638, 0.06486],
+        "width": 1.81897, 
+        "height": 0.17196, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-5.47206, 2.22638, 0.06486],
+        "width": 1.81897, 
+        "height": 0.17196, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-1.83859, -0.2815, 0.06486],
+        "width": 1.81897, 
+        "height": 0.19515, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-3.65631, -0.2815, 0.06486],
+        "width": 1.81897, 
+        "height": 0.19515, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-5.47206, -0.2815, 0.06486],
+        "width": 1.81897, 
+        "height": 0.19515, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-6.03134, 0.95545, -0.08972],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-6.03134, 0.95545, 0.73027],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-4.75904, 0.95545, -0.08972],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-4.75904, 0.95545, 0.73027],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-3.52119, 0.95545, -0.08972],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-3.52119, 0.95545, 0.73027],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-2.30027, 0.95545, -0.08972],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-2.30027, 0.95545, 0.73027],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-1.04323, 0.95545, -0.08972],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[-1.04323, 0.95545, 0.73027],
+        "width": 0.20494, 
+        "height": 2.3881, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, 0.50196, 3.04364],
+        "width": 0.85457, 
+        "height": 0.2979, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, 0.10739, 2.48368],
+        "width": 0.85457, 
+        "height": 0.2979, 
+        "armorThickness": 0.0
+    },
+    {
+        "pos":[0.01811, 0.91858, 3.51539],
+        "width": 0.85457, 
+        "height": 0.2979, 
+        "armorThickness": 0.0
+    }
+  ],
+	"definitions": [
+    {
+      "subName": "",
+      "name": "Henderly No. 1 Flyer",
+      "extraMaterials": []
+    }
+  ],
+  "rendering": {
+    "textObjects": [],
+    "animatedObjects": [
+      {
+        "objectName": "aileronL",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [2.5,1.1875,4.1875],
+            "axis": [1.0, 0, 0]
+          }
+        ]
+      },
+      {
+        "objectName": "aileronR",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [-2.5,1.1875,4.1875],
+            "axis": [-1.0, 0, 0]
+          }
+        ]
+      },
+      {
+        "objectName": "elevator",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [0.0,2.21875,4.1875],
+            "axis": [-1.0,0.0,0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "rudderR",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [-0.40625,1.125,-7.625],
+            "axis": [0.0,1.0,0.0]
+          }
+        ]
+      },
+			{
+        "objectName": "rudderL",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "rudder",
+            "centerPoint": [0.40625,1.125,-7.625],
+            "axis": [0.0,1.0,0.0]
+          }
+        ]
+      },
+			{
+        "objectName": "yoke",
+        "animations": [
+					{
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [0.03125,-0.125,1.21875],
+            "axis": [-0.5,0.0,0.0]
+          },
+					{
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [0.03125,-0.125,1.21875],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      }
+    ],
+    "sounds": []
+  },
+  "prefixFolders": "planes/henderly_p3_adventurer/",
+  "packID": "waywardcraft",
+  "systemName": "henderly_p3_adventurer",
+  "classification": "vehicle",
+  "general": {
+    "description": "",
+    "materials": ["minecraft:iron_ingot:0:20"]
+  }
+}
