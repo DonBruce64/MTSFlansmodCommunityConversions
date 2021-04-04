@@ -1,14 +1,14 @@
 {
   "motorized": {
     "isAircraft": true,
-    "emptyMass": 2000,
+    "emptyMass": 2900,
     "fuelCapacity": 25000,
     "brakingFactor": 1.0,
-    "tailDistance": 12.0,
-    "wingSpan": 22.6,
-    "wingArea": 70.0,
-    "aileronArea": 2.75,
-    "elevatorArea": 7.5,
+    "tailDistance": 8.1,
+    "wingSpan": 17,
+    "wingArea": 42.6,
+    "aileronArea": 2.0,
+    "elevatorArea": 4,
     "rudderArea": 5.0,
     "instruments": [
       {
