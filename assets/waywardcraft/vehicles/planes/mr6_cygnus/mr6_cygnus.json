@@ -875,6 +875,13 @@
         "armorThickness": 0.0
     }
   ],
+	"connections": [
+    {
+      "hookup": true,
+      "type": "pushback",
+      "pos": [0.0,-1.674,7.088]
+    }
+  ],
   "definitions": [
     {
       "subName": "",
