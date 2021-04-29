@@ -21,7 +21,7 @@
 		"isRearWheelDrive" : false,
 		"hasCruiseControl" : false,
     "dragCoefficient" : 0.6,
-		"hookupType" : "FifthWheel",
+		"hookupType" : "trailer_fifthwheel",
 		"hookupPos" : [0.0, 0.843749, 9.0625],
     "instruments": [ ]
   },	

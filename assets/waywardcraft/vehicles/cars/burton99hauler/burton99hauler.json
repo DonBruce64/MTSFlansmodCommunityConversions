@@ -29,7 +29,7 @@
     "dragCoefficient" : 0.6,
     "fuelCapacity" : 15000,
     "hornSound" : "mtsofficialpack:horn_car",
-		"hitchTypes" : ["FifthWheel"],
+		"hitchTypes" : ["trailer_fifthwheel"],
 		"hitchPos" : [0.0, 0.71875, -1.25],
     "instruments": [ ]
   },	
