@@ -19,20 +19,20 @@
       "turnsWithSteer": true,
       "minValue": 0.5,
       "maxValue": 1.15,
-      "types": ["ground_wheel"],
+      "types": ["ground_wheel", "ground_wheel_aircraft"],
       "animations": []
     },
     {
       "pos": [-3.75,-0.624999,0.9375],
       "minValue": 0.85,
       "maxValue": 1.15,
-      "types": ["ground_wheel"]
+      "types": ["ground_wheel", "ground_wheel_aircraft"]
     },
     {
       "pos": [3.75,-0.624999,0.9375],
       "minValue": 0.85,
       "maxValue": 1.15,
-      "types": ["ground_wheel"]
+      "types": ["ground_wheel", "ground_wheel_aircraft"]
     },
     {
       "pos": [3.46875,1.1875,2.0625],
@@ -127,44 +127,44 @@
     {
       "pos": [0.78125,0.9375,2.40625],
       "isController": true,
-      "types": ["seat"]
+      "types": ["seat", "seat_pilot"]
     },
     {
       "pos": [-0.78125,0.9375,2.40625],
       "isController": true,
-      "types": ["seat"]
+      "types": ["seat", "seat_pilot"]
     },
     {
       "pos": [0.875,0.0,0.90625],
-      "types": ["seat"]
+      "types": ["seat", "seat_airliner"]
     },
     {
       "pos": [-0.875,0.0,0.90625],
-      "types": ["seat"]
+      "types": ["seat", "seat_airliner"]
     },
 		{
       "pos": [0.875,0.0,-0.34375],
-      "types": ["seat"]
+      "types": ["seat", "seat_airliner"]
     },
     {
       "pos": [-0.875,0.0,-0.34375],
-      "types": ["seat"]
+      "types": ["seat", "seat_airliner"]
     },
 		{
       "pos": [0.875,0.0,-1.59375],
-      "types": ["seat"]
+      "types": ["seat", "seat_airliner"]
     },
     {
       "pos": [-0.875,0.0,-1.59375],
-      "types": ["seat"]
+      "types": ["seat", "seat_airliner"]
     },
 		{
       "pos": [0.875,0.0,-2.84375],
-      "types": ["seat"]
+      "types": ["seat", "seat_airliner"]
     },
     {
       "pos": [-0.875,0.0,-2.84375],
-      "types": ["seat"]
+      "types": ["seat", "seat_airliner"]
     },
 		
 		{

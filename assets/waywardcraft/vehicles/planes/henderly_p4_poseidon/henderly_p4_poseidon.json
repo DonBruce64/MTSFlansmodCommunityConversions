@@ -161,193 +161,193 @@
     {
       "pos": [0.687501,2.375,7.01194],
       "isController": true,
-      "types": ["seat"]
+      "types": ["seat", "seat_pilot"]
     },
     {
       "pos": [-0.687501,2.375,7.01194],
       "isController": true,
-      "types": ["seat"]
+      "types": ["seat", "seat_pilot"]
     },
     {
       "pos": [0.875001,2.375,2.41819],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-0.875001,2.375,2.41819],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [0.875001,2.375,1.23069],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-0.875001,2.375,1.23069],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [0.875001,2.375,0.043189],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-0.875001,2.375,0.043189],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [0.875001,2.375,-1.14431],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-0.875001,2.375,-1.14431],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		
 		{
       "pos": [1.6875,-0.0625,5.85569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.0,-0.0625,5.85569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [-1.0,-0.0625,5.85569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.6875,-0.0625,5.85569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [1.6875,-0.0625,4.60569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.0,-0.0625,4.60569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [-1.0,-0.0625,4.60569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.6875,-0.0625,4.60569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [1.6875,-0.0625,3.35569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.0,-0.0625,3.35569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [-1.0,-0.0625,3.35569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.6875,-0.0625,3.35569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [1.6875,-0.0625,2.10569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.0,-0.0625,2.10569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [-1.0,-0.0625,2.10569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.6875,-0.0625,2.10569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [1.6875,-0.0625,0.85569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.0,-0.0625,0.85569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [-1.0,-0.0625,0.85569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.6875,-0.0625,0.85569],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [1.6875,-0.0625,-0.39431],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.0,-0.0625,-0.39431],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [-1.0,-0.0625,-0.39431],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.6875,-0.0625,-0.39431],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [1.6875,-0.0625,-1.64431],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.0,-0.0625,-1.64431],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [-1.0,-0.0625,-1.64431],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.6875,-0.0625,-1.64431],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     }
   ],
   "collision": [

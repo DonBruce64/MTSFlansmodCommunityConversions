@@ -19,20 +19,20 @@
       "turnsWithSteer": true,
       "minValue": 0.35,
       "maxValue": 1.25,
-      "types": ["ground_wheel"],
+      "types": ["ground_wheel", "ground_wheel_aircraft"],
       "animations": []
     },
     {
       "pos": [-0.8125,-0.71875,1.375],
       "minValue": 0.35,
       "maxValue": 1.25,
-      "types": ["ground_wheel"]
+      "types": ["ground_wheel", "ground_wheel_aircraft"]
     },
     {
       "pos": [0.8125,-0.71875,1.375],
       "minValue": 0.35,
       "maxValue": 1.25,
-      "types": ["ground_wheel"]
+      "types": ["ground_wheel", "ground_wheel_aircraft"]
     },
     {
       "pos": [0.0,0.0625,2.125],
@@ -56,11 +56,11 @@
     {
       "pos": [0,-0.0625,0.5],
       "isController": true,
-      "types": ["seat"]
+      "types": ["seat", "seat_pilot"]
     },
 		{
       "pos": [0,-0.0625,-0.6875],
-      "types": ["seat"]
+      "types": ["seat", "seat_airliner"]
     }
   ],
   "collision": [

@@ -43,20 +43,20 @@
       "turnsWithSteer": true,
       "minValue": 0.85,
       "maxValue": 1.15,
-      "types": ["ground_wheel"],
+      "types": ["ground_wheel", "ground_wheel_aircraft"],
       "animations": [ ]
     },
     {
       "pos": [-4.8125,-2.44764,2.30711],
       "minValue": 0.85,
       "maxValue": 1.15,
-      "types": ["ground_wheel"]
+      "types": ["ground_wheel", "ground_wheel_aircraft"]
     },
     {
       "pos": [4.8125,-2.44764,2.30711],
       "minValue": 0.85,
       "maxValue": 1.15,
-      "types": ["ground_wheel"]
+      "types": ["ground_wheel", "ground_wheel_aircraft"]
     },
     {
       "pos": [4.8125,0.364859,3.68211],
@@ -99,152 +99,152 @@
     {
       "pos": [0.8125,2.36486,5.49461],
       "isController": true,
-      "types": ["seat"]
+      "types": ["seat", "seat_pilot"]
     },
     {
       "pos": [-0.8125,2.36486,5.49461],
       "isController": true,
-      "types": ["seat"]
+      "types": ["seat", "seat_pilot"]
     },
     {
       "pos": [1.25,1.30236,1.05711],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [0.625,1.30236,1.05711],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.25,1.30236,1.05711],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-0.625,1.30236,1.05711],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.25,1.30236,-0.192895],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [0.625,1.30236,-0.192895],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.25,1.30236,-0.192895],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-0.625,1.30236,-0.192895],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.25,1.30236,-1.44289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [0.625,1.30236,-1.44289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.25,1.30236,-1.44289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-0.625,1.30236,-1.44289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.25,1.30236,-2.69289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [0.625,1.30236,-2.69289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.25,1.30236,-2.69289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-0.625,1.30236,-2.69289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.25,1.30236,-3.94289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [0.625,1.30236,-3.94289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.25,1.30236,-3.94289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-0.625,1.30236,-3.94289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.25,1.30236,-5.19289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [0.625,1.30236,-5.19289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.25,1.30236,-5.19289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-0.625,1.30236,-5.19289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [1.25,1.30236,-6.44289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [0.625,1.30236,-6.44289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-1.25,1.30236,-6.44289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
     {
       "pos": [-0.625,1.30236,-6.44289],
       "maxValue": 3.0,
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     }
   ],
   "collision": [

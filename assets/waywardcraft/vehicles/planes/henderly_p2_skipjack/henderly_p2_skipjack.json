@@ -100,19 +100,19 @@
     {
       "pos": [0.5625,0.03125,-0.0625],
       "isController": true,
-      "types": ["seat"]
+      "types": ["seat", "seat_pilot"]
     },
 		{
       "pos": [-0.5625,0.03125,-0.0625],
-      "types": ["seat"]
+      "types": ["seat", "seat_airliner"]
     },
 		{
       "pos": [0.5625,0.03125,-1.1875],
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     },
 		{
       "pos": [-0.5625,0.03125,-1.1875],
-      "types": ["seat","interactable_crate"]
+      "types": ["seat", "seat_airliner","interactable_crate"]
     }
   ],
   "collision": [
