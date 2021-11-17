@@ -1,0 +1,85 @@
+{
+  "generic": {
+    "type": "gun_fixed",
+		"movementAnimations": [
+      {
+        "animationType": "rotation",
+        "variable": "gun_pitch",
+        "centerPoint": [0.0,0.0,0.0],
+        "axis": [1.0,0.0,0.0]
+      },
+      {
+        "animationType": "rotation",
+        "variable": "gun_yaw",
+        "centerPoint": [0.0,0.0,0.0],
+        "axis": [0.0,1.0,0.0]
+      }
+    ]
+  },
+  "gun": {
+    "autoReload": true,
+    "pitchIsInternal": true,
+    "capacity": 250,
+    "reloadTime": 40,
+    "muzzleVelocity": 800,
+    "fireDelay": 2.5,
+    "minYaw": -20,
+    "maxYaw": 20,
+    "minPitch": -10.0,
+    "maxPitch": 20.0,
+    "diameter": 7.62,
+    "yawSpeed": 3,
+    "pitchSpeed": 3,
+    "muzzleGroups": [
+      {
+        "muzzles": [
+          {
+            "pos": [0.0,0.0,0.5],
+            "rot": [0.0,0.0,0.0],
+            "center": [0.0,0.0,0.0]
+          }
+        ]
+      }
+    ]
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Landship Machine Gun",
+      "extraMaterials": []
+    }
+  ],
+  "rendering": {
+    "lightObjects": [],
+    "sounds": [
+      {
+        "name": "mtsofficialpack:gunm1919_firing",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "gun_fired",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "forceSound": true
+      },
+      {
+        "name": "mtsofficialpack:gunm1919_reloading",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "gun_reload",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }
+    ],
+    "particles": []
+  },
+  "general": {
+    "name": "BANG BANG BANG BANG BANG BANG BANG",
+    "materials": ["oredict:ingotIron:4","oredict:coal:1","minecraft:lever:0:1"]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "generic": {
+    "type": "gun_turret",
+		"movementAnimations": [
+      {
+        "animationType": "rotation",
+        "variable": "gun_yaw",
+        "centerPoint": [0.0,0.0,0.0],
+        "axis": [0.0,1.0,0.0]
+      }
+    ]
+  },
+  "gun": {
+    "autoReload": true,
+    "pitchIsInternal": true,
+    "capacity": 1,
+    "reloadTime": 40,
+    "muzzleVelocity": 200,
+    "fireDelay": 10.0,
+    "minYaw": -22.5,
+    "maxYaw": 22.5,
+    "minPitch": -5.0,
+    "maxPitch": 15.0,
+    "diameter": 37.0,
+    "yawSpeed": 2,
+    "pitchSpeed": 4,
+    "muzzleGroups": [
+      {
+        "muzzles": [
+          {
+            "pos": [0.0,0.0,1.09375],
+            "rot": [0.0,0.0,0.0],
+            "center": [0.0,0.0,0.0]
+          }
+        ]
+      }
+    ]
+  },
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Landship Turret",
+      "extraMaterials": []
+    }
+  ],
+  "rendering": {
+    "animatedObjects": [
+      {
+        "objectName": "Model[2]",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "gun_pitch",
+            "centerPoint": [0.0,0,0.28125],
+            "axis": [1.0,0.0,0.0]
+          }
+        ]
+      }
+    ],
+    "lightObjects": [],
+    "sounds": [
+      {
+        "name": "mtsofficialpack:gunft17turret_firing",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "gun_fired",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ],
+        "forceSound": true
+      },
+      {
+        "name": "mtsofficialpack:gunft17turret_reloading",
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "gun_reload",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }
+    ],
+    "particles": []
+  },
+  "general": {
+    "name": "Supercalifragilisticexpialadocious even though the object name is something quite atrocious",
+    "materials": ["oredict:ingotIron:5","minecraft:lever:0:1"]
+  }
+}

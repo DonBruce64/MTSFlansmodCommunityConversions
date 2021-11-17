@@ -1,0 +1,190 @@
+{
+  "motorized": {
+    "isFrontWheelDrive": true,
+    "isRearWheelDrive": true,
+    "emptyMass": 8000,
+    "fuelCapacity": 15000,
+    "axleRatio": 3.75,
+    "brakingFactor": 2.5,
+    "dragCoefficient": 0.5
+  },
+  "parts": [
+    {
+      "pos": [-1.15,-1.2,-2.7],
+      "minValue": 1.0,
+      "maxValue": 1.0,
+      "turnsWithSteer": true,
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_wheel",
+      "types": ["ground_wheel","ground_wheel_aircraft"]
+    },
+    {
+      "pos": [1.15,-1.2,-2.7],
+      "minValue": 1.0,
+      "maxValue": 1.0,
+      "turnsWithSteer": true,
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_wheel",
+      "types": ["ground_wheel","ground_wheel_aircraft"]
+    },
+    {
+      "pos": [-1.15,-1.2,0.7],
+      "minValue": 1.0,
+      "maxValue": 1.0,
+      "turnsWithSteer": true,
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_wheel",
+      "types": ["ground_wheel","ground_wheel_aircraft"]
+    },
+    {
+      "pos": [1.15,-1.2,0.7],
+      "minValue": 1.0,
+      "maxValue": 1.0,
+      "turnsWithSteer": true,
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_wheel",
+      "types": ["ground_wheel","ground_wheel_aircraft"]
+    },
+    {
+      "pos": [-1.15,-1.2,4.8],
+      "minValue": 1.0,
+      "maxValue": 1.0,
+      "turnsWithSteer": true,
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_wheel",
+      "types": ["ground_wheel","ground_wheel_aircraft"]
+    },
+    {
+      "pos": [1.15,-1.2,4.8],
+      "minValue": 1.0,
+      "maxValue": 1.0,
+      "turnsWithSteer": true,
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_wheel",
+      "types": ["ground_wheel","ground_wheel_aircraft"]
+    },
+    {
+      "pos": [0.0,-0.70495,3.78402],
+      "isController": true,
+      "types": ["seat"],
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_seat",
+      "additionalParts": [
+        {
+          "pos": [0.03125,0.01621,4.40625],
+          "maxValue": 20.0,
+          "types": ["gun_fixed"],
+          "isPermanent": true,
+          "defaultPart": "waywardcraft:landshipgun"
+        }
+      ]
+    },
+    {
+      "pos": [1.72937,-0.97902,1.72538],
+      "types": ["seat"],
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_seat",
+      "additionalParts": [
+        {
+          "pos": [1.8125,-0.2925,2.3175],
+          "rot": [0.0,45,0.0],
+          "minValue": 7.0,
+          "maxValue": 40.0,
+          "types": ["gun_turret"],
+          "isPermanent": true,
+          "defaultPart": "waywardcraft:landshipturret"
+        }
+      ]
+    },
+    {
+      "pos": [-1.72937,-0.97902,1.72538],
+      "types": ["seat"],
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_seat",
+      "additionalParts": [
+        {
+          "pos": [-1.69713,-0.2925,2.3175],
+          "rot": [0.0,-45,0.0],
+          "minValue": 7.0,
+          "maxValue": 40.0,
+          "types": ["gun_turret"],
+          "isPermanent": true,
+          "defaultPart": "waywardcraft:landshipturret"
+        }
+      ]
+    },
+    {
+      "pos": [0.0,-0.83185,2.39306],
+      "maxValue": 3.0,
+      "types": ["interactable_crate","interactable_chest"]
+    },
+    {
+      "pos": [0.0,-0.51828,0.43751],
+      "maxValue": 2.0,
+      "types": ["engine_car"]
+    }
+  ],
+  "collisionGroups": [
+    {
+      "collisions": [
+        {
+          "pos": [0.0,0.5,0.5],
+          "width": 2,
+          "height": 0.375
+        }
+      ]
+    }
+  ],
+  "instruments": [],
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Landship",
+      "extraMaterials": []
+    }
+  ],
+  "rendering": {
+    "textObjects": [],
+    "animatedObjects": [],
+    "lightObjects": [],
+    "sounds": [],
+    "particles": [
+      {
+        "type": "smoke",
+        "transparency": 0.25,
+        "toTransparency": 0.25,
+        "scale": 1.0,
+        "color": "D9D9D9",
+        "pos": [0.46875,-1.14004,-2.53125],
+        "initialVelocity": [0.0,-1,-0.5],
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_piston_1_2_cam_1",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "type": "smoke",
+        "quantity": 5,
+        "scale": 2.5,
+        "color": "000000",
+        "pos": [0.46875,-1.14004,-2.53125],
+        "initialVelocity": [0.0,-1.5,-1],
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_backfired_1",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }]
+  },
+  "general": {
+    "description": "Ye best be gettin' runnin' laddies!!",
+    "materials": ["oredict:ingotIron:28"]
+  }
+}
