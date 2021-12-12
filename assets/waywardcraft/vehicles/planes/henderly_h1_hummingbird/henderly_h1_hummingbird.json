@@ -1,0 +1,1208 @@
+{
+  "motorized": {
+    "isAircraft": true,
+    "emptyMass": 1700,
+    "fuelCapacity": 6000,
+    "brakingFactor": 1.0,
+    "dragCoefficient": 0.5,
+    "tailDistance": 6.9375
+  },
+  "parts": [
+    {
+      "pos": [0.0,-0.52,-4.08161],
+      "minValue": 1.0,
+      "maxValue": 1.0,
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_wheel",
+      "types": ["ground_wheel","ground_wheel_aircraft"]
+    },
+    {
+      "pos": [-1.46875, -0.71875, 0.21875],
+      "minValue": 0.5,
+      "maxValue": 0.6875,
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [1.46875, -0.71875, 0.21875],
+      "minValue": 0.5,
+      "maxValue": 0.6875,
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [-1.31114,-0.20715,2.9059],
+      "maxValue": 20.0,
+      "types": ["gun_fixed"]
+    },
+    {
+      "pos": [1.31114,-0.20715,2.9059],
+      "maxValue": 20.0,
+      "types": ["gun_fixed"]
+    },
+    {
+      "pos": [0.0,1.45734,0.0],
+      "maxValue": 2.0,
+      "types": ["engine_helicopter_flat"],
+      "additionalParts": [
+        {
+          "pos": [0.0,2.5625,0.0],
+          "rot": [-90.0,0.0,0.0],
+          "minValue": 400.0,
+          "maxValue": 500.0,
+          "types": ["propeller_rotor"],
+          "animations": [
+            {
+              "animationType": "visibility",
+              "variable": "!part_present_7",
+              "centerPoint": [0.0,0.0,0.0],
+              "clampMin": 1.0,
+              "clampMax": 1.0
+            }
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "animationType": "visibility",
+          "variable": "!part_present_6",
+          "centerPoint": [0.0,0.0,0.0],
+          "clampMin": 1.0,
+          "clampMax": 1.0
+        }
+      ]
+    },
+    {
+      "pos": [-0.62089,0.12464,1.72028],
+      "dismountPos": [-1.6,0.5,1.75],
+      "isController": true,
+      "types": ["seat"],
+      "animations": [
+        {
+          "animationType": "visibility",
+          "variable": "!part_present_8",
+          "centerPoint": [0.0,0.0,0.0],
+          "clampMin": 1.0,
+          "clampMax": 1.0
+        }
+      ]
+    },
+    {
+      "pos": [0.62089,0.12464,1.72028],
+      "dismountPos": [1.6,0.5,1.75],
+      "isController": true,
+      "types": ["seat"],
+      "animations": [
+        {
+          "animationType": "visibility",
+          "variable": "!part_present_9",
+          "centerPoint": [0.0,0.0,0.0],
+          "clampMin": 1.0,
+          "clampMax": 1.0
+        }
+      ]
+    }
+  ],
+  "collisionGroups": [
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [-0.0,1.5375,2.6875],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.59375,1.5375,2.6875],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.125,1.5375,2.6875],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.125,1.5375,2.6875],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.59375,1.5375,2.6875],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.5375,2.15625],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.59375,1.5375,2.15625],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.125,1.5375,2.15625],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.125,1.5375,2.15625],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.59375,1.5375,2.15625],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.5375,1.53125],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.59375,1.5375,1.53125],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.125,1.5375,1.53125],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.125,1.5375,1.53125],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.59375,1.5375,1.53125],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.5375,1.0625],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.59375,1.5375,1.0625],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.125,1.5375,1.0625],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.125,1.5375,1.0625],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.59375,1.5375,1.0625],
+          "width": 0.25,
+          "height": 0.1,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,1.2375,1.53125],
+          "width": 0.125,
+          "height": 0.5,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,1.2375,2.75],
+          "width": 0.125,
+          "height": 0.5,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.7375,1.53125],
+          "width": 0.125,
+          "height": 0.5,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.7375,2.75],
+          "width": 0.125,
+          "height": 0.5,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.11875,1.53125],
+          "width": 0.125,
+          "height": 0.7375,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.11875,2.75],
+          "width": 0.125,
+          "height": 0.7375,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,1.2375,1.53125],
+          "width": 0.125,
+          "height": 0.5,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,1.2375,2.75],
+          "width": 0.125,
+          "height": 0.5,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.7375,1.53125],
+          "width": 0.125,
+          "height": 0.5,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.7375,2.75],
+          "width": 0.125,
+          "height": 0.5,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.11875,1.53125],
+          "width": 0.125,
+          "height": 0.7375,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.11875,2.75],
+          "width": 0.125,
+          "height": 0.7375,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,1.2375,1.125],
+          "width": 0.125,
+          "height": 0.5,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.7375,1.125],
+          "width": 0.125,
+          "height": 0.5,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.11875,1.125],
+          "width": 0.125,
+          "height": 0.7375,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,1.2375,1.125],
+          "width": 0.125,
+          "height": 0.5,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.7375,1.125],
+          "width": 0.125,
+          "height": 0.5,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.11875,1.125],
+          "width": 0.125,
+          "height": 0.7375,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.40625,2.5],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.40625,2.5],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.40625,2.25],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.40625,2.25],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.40625,2.0],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.40625,2.0],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.40625,1.75],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.40625,1.75],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.90625,2.5],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.90625,2.5],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.90625,2.25],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.90625,2.25],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.90625,2.0],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.90625,2.0],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,0.90625,1.75],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,0.90625,1.75],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.0,1.15625,2.99559],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.1875,1.15625,2.99559],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.1875,1.15625,2.99559],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.0,1.40625,2.84312],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.1875,1.40625,2.84312],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.1875,1.40625,2.84312],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.0,-0.09375,2.99449],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.1875,-0.09375,2.99449],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.1875,-0.09375,2.99449],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,-0.1875,2.5],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,-0.1875,2.5],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,-0.1875,2.25],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,-0.1875,2.25],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,-0.1875,2.0],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,-0.1875,2.0],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.21875,-0.1875,1.75],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.21875,-0.1875,1.75],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        }
+      ]
+    },
+    {
+      "collisions": [
+        {
+          "pos": [0.0,0.40625,3.40625],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.65625,0.40625,3.40625],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.59375,0.40625,3.40625],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.1875,0.40625,3.40625],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.1875,0.40625,3.40625],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.0,0.65625,3.30867],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.1875,0.65625,3.30867],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.1875,0.65625,3.30867],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.0,0.90625,3.1501],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.1875,0.90625,3.1501],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.1875,0.90625,3.1501],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.0,0.15625,3.2535],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.1875,0.15625,3.2535],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.1875,0.15625,3.2535],
+          "width": 0.125,
+          "height": 0.125,
+          "variableValue": 0.0
+        }
+      ]
+    },
+    {
+      "collisions": [
+        {
+          "pos": [-1.0,-0.28125,2.5625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.5,-0.28125,2.5625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.0,-0.28125,2.5625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.5,-0.28125,2.5625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.0,-0.28125,2.5625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.0,-0.28125,2.0625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.5,-0.28125,2.0625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.0,-0.28125,2.0625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.5,-0.28125,2.0625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.0,-0.28125,2.0625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.0,-0.28125,1.5625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.5,-0.28125,1.5625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.0,-0.28125,1.5625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.5,-0.28125,1.5625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.0,-0.28125,1.5625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.0,-0.28125,1.0625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.5,-0.28125,1.0625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.0,-0.28125,1.0625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.5,-0.28125,1.0625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.0,-0.28125,1.0625],
+          "width": 0.5,
+          "height": 0.0625,
+          "variableValue": 0.0
+        }
+      ]
+    },
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [1.0,0.1875,0.6875],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.5,0.1875,0.6875],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,0.1875,0.6875],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.5,0.1875,0.6875],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.0,0.1875,0.6875],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.0,0.1875,0.1875],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.5,0.1875,0.1875],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,0.1875,0.1875],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.5,0.1875,0.1875],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.0,0.1875,0.1875],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.5,0.1875,-0.3125],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,0.1875,-0.3125],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.5,0.1875,-0.3125],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.5,0.1875,-0.8125],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,0.1875,-0.8125],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.5,0.1875,-0.8125],
+          "width": 0.5,
+          "height": 1.0,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,0.3125,-1.3125],
+          "width": 0.5,
+          "height": 0.75,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.0,1.1375,0.6875],
+          "width": 0.5,
+          "height": 0.9,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.5,1.1375,0.6875],
+          "width": 0.5,
+          "height": 0.9,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.1375,0.6875],
+          "width": 0.5,
+          "height": 0.9,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.5,1.1375,0.6875],
+          "width": 0.5,
+          "height": 0.9,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.0,1.1375,0.6875],
+          "width": 0.5,
+          "height": 0.9,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [1.0,1.1375,0.1875],
+          "width": 0.5,
+          "height": 0.9,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-1.0,1.1375,0.1875],
+          "width": 0.5,
+          "height": 0.9,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.5,1.1375,-0.3125],
+          "width": 0.5,
+          "height": 0.9,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.5,1.1375,-0.3125],
+          "width": 0.5,
+          "height": 0.9,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [0.5,1.1375,-0.8125],
+          "width": 0.5,
+          "height": 0.9,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.5,1.1375,-0.8125],
+          "width": 0.5,
+          "height": 0.9,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.1375,-1.3125],
+          "width": 0.5,
+          "height": 0.9,
+          "variableValue": 0.0
+        }
+      ]
+    },
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [-0.0,0.63125,-1.8125],
+          "width": 0.5,
+          "height": 0.5625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.25,-1.8125],
+          "width": 0.5,
+          "height": 0.675,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,0.74375,-2.3125],
+          "width": 0.5,
+          "height": 0.5625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.30625,-2.3125],
+          "width": 0.5,
+          "height": 0.5625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.16562,-2.8125],
+          "width": 0.5,
+          "height": 0.84375,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.25,-3.3125],
+          "width": 0.5,
+          "height": 0.675,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.25,-3.8125],
+          "width": 0.5,
+          "height": 0.675,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.33437,-4.3125],
+          "width": 0.5,
+          "height": 0.50625,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.41875,-4.8125],
+          "width": 0.5,
+          "height": 0.3375,
+          "variableValue": 0.0
+        },
+        {
+          "pos": [-0.0,1.41875,-5.3125],
+          "width": 0.5,
+          "height": 0.3375,
+          "variableValue": 0.0
+        }
+      ]
+    },
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [0.0,1.9625,-0.0],
+          "width": 0.5,
+          "height": 0.75,
+          "variableValue": 0.0
+        }
+      ]
+    },
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [0.0,2.3125,-6.9375],
+          "width": 0.25,
+          "height": 0.25,
+          "variableValue": 0.0
+        }
+      ]
+    },
+    {
+      "collisions": [
+        {
+          "pos": [1.46875,-0.5625,0.21875],
+          "width": 0.25,
+          "height": 0.25,
+          "variableValue": 0.0
+        }
+      ]
+    },
+    {
+      "collisions": [
+        {
+          "pos": [-1.46875,-0.5625,0.21875],
+          "width": 0.25,
+          "height": 0.25,
+          "variableValue": 0.0
+        }
+      ]
+    },
+    {
+      "collisions": [
+        {
+          "pos": [-0.0,-0.83125,-4.09375],
+          "width": 0.25,
+          "height": 0.25,
+          "variableValue": 0.0
+        }
+      ]
+    }
+  ],
+  "instruments": [
+    {
+      "pos": [0.96875,0.40625,3.31225],
+      "rot": [0.0,0.0,0.0],
+      "scale": 0.02275,
+      "hudX": 60,
+      "hudY": 50,
+      "hudScale": 0.275
+    },
+    {
+      "pos": [0.65625,0.40625,3.31225],
+      "rot": [0.0,0.0,0.0],
+      "scale": 0.03875,
+      "hudX": 110,
+      "hudY": 50,
+      "hudScale": 0.425
+    },
+    {
+      "pos": [0.34375,0.40625,3.31225],
+      "rot": [0.0,0.0,0.0],
+      "scale": 0.02275,
+      "hudX": 160,
+      "hudY": 50,
+      "hudScale": 0.275
+    },
+    {
+      "pos": [0.03125,0.40625,3.31225],
+      "rot": [0.0,0.0,0.0],
+      "scale": 0.02275,
+      "hudX": 200,
+      "hudY": 50,
+      "hudScale": 0.275
+    },
+    {
+      "pos": [-0.28125,0.40625,3.31225],
+      "rot": [0.0,0.0,0.0],
+      "scale": 0.02275,
+      "hudX": 240,
+      "hudY": 50,
+      "hudScale": 0.275
+    },
+    {
+      "pos": [-0.59375,0.40625,3.31225],
+      "rot": [0.0,0.0,0.0],
+      "scale": 0.03875,
+      "hudX": 290,
+      "hudY": 50,
+      "hudScale": 0.425
+    },
+    {
+      "pos": [-0.96875,0.40625,3.31225],
+      "rot": [0.0,0.0,0.0],
+      "scale": 0.02275,
+      "hudX": 340,
+      "hudY": 50,
+      "hudScale": 0.275
+    }
+  ],
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Henderly H1 Hummingbird",
+      "extraMaterials": []
+    }
+  ],
+  "rendering": {
+    "textObjects": [],
+    "animatedObjects": [
+      {
+        "objectName": "heliTailRotorModels[0]",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [-0.34375,2.3125,-6.9375],
+            "axis": [1.0,0.0,0.0],
+            "offset": 90.0
+          }
+        ]
+      },
+      {
+        "objectName": "skid",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "part_present_1",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "objectName": "heliMainRotorModels[0]",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "part_present_7",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [0.0,2.5625,0.0],
+            "axis": [0.0,1.0,0.0],
+            "offset": 90.0
+          }
+        ]
+      },
+      {
+        "objectName": "controlstick1",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [-0.625,-0.25,2.4375],
+            "axis": [-1.0,0.0,0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [-0.625,-0.25,2.4375],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "controlstick2",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [0.625,-0.25,2.4375],
+            "axis": [-1.0,0.0,0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [0.625,-0.25,2.4375],
+            "axis": [0.0,0.0,1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "throttle",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "throttle",
+            "centerPoint": [0.0,-0.11107,1.72683],
+            "axis": [-15.0,0.0,0.0]
+          }
+        ]
+      }
+    ],
+    "lightObjects": [],
+    "sounds": [],
+    "particles": []
+  },
+  "general": {
+    "description": "",
+    "materials": ["minecraft:iron_ingot:0:20"]
+  }
+}

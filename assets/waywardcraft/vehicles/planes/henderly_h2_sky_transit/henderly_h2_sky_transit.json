@@ -1,0 +1,805 @@
+{
+  "motorized": {
+    "isAircraft": true,
+    "emptyMass": 2300,
+    "fuelCapacity": 9000,
+    "brakingFactor": 1.0,
+    "dragCoefficient": 0.5,
+    "tailDistance": 5.65625
+  },
+
+  "parts": [
+    {
+      "pos": [0.0, -0.8125, 3.4375],
+      "minValue": 0.625,
+      "maxValue": 0.75,
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [-2.20652, -0.6875, -0.15625],
+      "minValue": 1.0,
+      "maxValue": 1.125,
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [2.26887, -0.6875, -0.15625],
+      "minValue": 1.0,
+      "maxValue": 1.125,
+      "types": ["ground_wheel"]
+    },
+    {
+      "pos": [-0.01004, 2.19366, -0.02195],
+      "maxValue": 2.0,
+      "types": ["engine_helicopter_flat"],
+      "additionalParts": [
+        {
+          "pos": [0.0, 3.3125, 1.9E-6],
+          "rot": [-90.0, 0.0, 0.0],
+          "minValue": 400.0,
+          "maxValue": 500.0,
+          "types": ["propeller_rotor"],
+          "animations": [
+            {
+              "animationType": "visibility",
+              "variable": "!part_present_5",
+              "centerPoint": [0.0, 0.0, 0.0],
+              "clampMin": 1.0,
+              "clampMax": 1.0
+            }
+          ]
+        }
+      ],
+      "animations": [
+        {
+          "animationType": "visibility",
+          "variable": "!part_present_4",
+          "centerPoint": [0.0, 0.0, 0.0],
+          "clampMin": 1.0,
+          "clampMax": 1.0
+        }
+      ]
+    },
+    {
+      "pos": [0.0, 0.50177, 2.97091],
+      "dismountPos": [-1.5, 0.5, 1.34],
+      "isController": true,
+      "types": ["seat","seat_invisible"]
+    },
+    {
+      "pos": [0.0, 0.50177, 1.71855],
+      "dismountPos": [1.5, 0.5, 1.34],
+      "isController": true,
+      "types": ["seat","seat_invisible"]
+    },
+    {
+      "pos": [1.40723, 0.06171, 2.09448],
+      "rot": [0.0, 90.0, 0.0],
+      "dismountPos": [1.5, 0.5, 1.34],
+      "types": ["seat","seat_invisible"]
+    },
+    {
+      "pos": [1.40723, 0.06171, 1.03709],
+      "rot": [0.0, 90.0, 0.0],
+      "dismountPos": [1.5, 0.5, 1.34],
+      "types": ["seat","seat_invisible"]
+    },
+    {
+      "pos": [-1.38844, 0.06171, 2.09448],
+      "rot": [0.0, -90.0, 0.0],
+      "dismountPos": [1.5, 0.5, 1.34],
+      "types": ["seat","seat_invisible"]
+    },
+    {
+      "pos": [-1.38844, 0.06171, 1.03709],
+      "rot": [0.0, -90.0, 0.0],
+      "dismountPos": [1.5, 0.5, 1.34],
+      "types": ["seat","seat_invisible"]
+    }
+  ],
+
+  "collisionGroups": [
+    //side_seat_left
+    {
+      "collisions": [
+        {
+          "pos": [1.3125, -0.0625, 2.3125],
+          "width": 0.5,
+          "height": 0.125
+        },
+        {
+          "pos": [1.3125, -0.0625, 1.8125],
+          "width": 0.5,
+          "height": 0.125
+        },
+        {
+          "pos": [1.3125, -0.0625, 1.3125],
+          "width": 0.5,
+          "height": 0.125
+        },
+        {
+          "pos": [1.3125, -0.0625, 0.8125],
+          "width": 0.5,
+          "height": 0.125
+        }
+      ]
+    },
+    //side_seat_right
+    {
+      "collisions": [
+        {
+          "pos": [-1.3125, -0.0625, 2.3125],
+          "width": 0.5,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.3125, -0.0625, 1.8125],
+          "width": 0.5,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.3125, -0.0625, 1.3125],
+          "width": 0.5,
+          "height": 0.125
+        },
+        {
+          "pos": [-1.3125, -0.0625, 0.8125],
+          "width": 0.5,
+          "height": 0.125
+        }
+      ]
+    },
+    //wheel_slot_nose
+    {
+      "collisions": [
+        {
+          "pos": [0.0, -0.8123, 3.4375],
+          "width": 0.2,
+          "height": 0.2
+        }
+      ]
+    },
+    //wheel_slot_left
+    {
+      "collisions": [
+        {
+          "pos": [2.03125, -0.6875, -0.15625],
+          "width": 0.2,
+          "height": 0.2
+        }
+      ]
+    },
+    //wheel_slot_right
+    {
+      "collisions": [
+        {
+          "pos": [-2.03125, -0.6875, -0.15625],
+          "width": 0.2,
+          "height": 0.2
+        }
+      ]
+    },
+    //floor
+    {
+      "collisions": [
+        {
+          "pos": [-0.5, 0.0875, 3.1625],
+          "width": 1.0,
+          "height": 0.2
+        },
+        {
+          "pos": [-0.5, 0.0875, 2.1625],
+          "width": 1.0,
+          "height": 0.2
+        },
+        {
+          "pos": [0.5, 0.0875, 3.1625],
+          "width": 1.0,
+          "height": 0.2
+        },
+        {
+          "pos": [0.5, 0.0875, 2.1625],
+          "width": 1.0,
+          "height": 0.2
+        },
+        {
+          "pos": [-0.75, 0.0875, 1.4125],
+          "width": 0.5,
+          "height": 0.2
+        },
+        {
+          "pos": [-0.25, 0.0875, 1.4125],
+          "width": 0.5,
+          "height": 0.2
+        },
+        {
+          "pos": [0.25, 0.0875, 1.4125],
+          "width": 0.5,
+          "height": 0.2
+        },
+        {
+          "pos": [0.75, 0.0875, 1.4125],
+          "width": 0.5,
+          "height": 0.2
+        },
+        {
+          "pos": [-0.5, 0.0875, 3.9125],
+          "width": 0.5,
+          "height": 0.2
+        },
+        {
+          "pos": [0.0, 0.0875, 3.9125],
+          "width": 0.5,
+          "height": 0.2
+        },
+        {
+          "pos": [0.5, 0.0875, 3.9125],
+          "width": 0.5,
+          "height": 0.2
+        },
+        {
+          "pos": [0.0, 0.2375, 0.4125],
+          "width": 1.5,
+          "height": 0.5
+        },
+        {
+          "pos": [-0.0, 0.2375, -0.8375],
+          "width": 1.0,
+          "height": 0.5
+        },
+        {
+          "pos": [0.0, 0.2375, -0.8375],
+          "width": 1.0,
+          "height": 0.5
+        }
+      ]
+    },
+    //cockpit_grill
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [-0.1, 0.53078, 4.2625],
+          "width": 0.2,
+          "height": 0.68656
+        },
+        {
+          "pos": [0.1, 0.53078, 4.2625],
+          "width": 0.2,
+          "height": 0.68656
+        },
+        {
+          "pos": [0.0, 1.62406, 4.44336],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [0.0, 2.1875, 4.15625],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [-0.1, 1.03125, 4.45],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [0.1, 1.03125, 4.45],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [0.4, 1.03125, 4.35],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [0.8, 1.03125, 4.15],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [1.0, 1.03125, 3.75],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [1.1, 0.63125, 3.45],
+          "width": 0.2,
+          "height": 1.0
+        },
+        {
+          "pos": [1.1, 1.03125, 3.05],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [1.1, 0.63125, 2.65],
+          "width": 0.2,
+          "height": 1.0
+        },
+        {
+          "pos": [1.1, 1.03125, 2.15625],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [1.1, 1.38125, 1.59375],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [-0.4, 1.03125, 4.35],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [-0.8, 1.03125, 4.15],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [-1.0, 1.03125, 3.75],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [-1.1, 0.63125, 3.45],
+          "width": 0.2,
+          "height": 1.0
+        },
+        {
+          "pos": [-1.1, 1.03125, 3.05],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [-1.1, 0.63125, 2.65],
+          "width": 0.2,
+          "height": 1.0
+        },
+        {
+          "pos": [-1.1, 1.03125, 2.15625],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [-1.1, 1.38125, 1.59375],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [0.9, 1.88125, 1.59375],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [-0.9, 1.88125, 1.59375],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [1.1, 1.38125, 2.65],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [-1.1, 1.38125, 2.65],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [0.9, 1.88125, 2.65],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [-0.9, 1.88125, 2.65],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [1.1, 1.38125, 3.45],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [-1.1, 1.38125, 3.45],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [0.9, 1.88125, 3.45],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [-0.9, 1.88125, 3.45],
+          "width": 0.2,
+          "height": 0.5
+        },
+        {
+          "pos": [1.1, 0.63125, 1.59375],
+          "width": 0.2,
+          "height": 1.0
+        },
+        {
+          "pos": [-1.1, 0.63125, 1.59375],
+          "width": 0.2,
+          "height": 1.0
+        },
+        {
+          "pos": [-1.1, 0.63125, 1.59375],
+          "width": 0.2,
+          "height": 1.0
+        },
+        {
+          "pos": [1.1, 0.63125, 1.39375],
+          "width": 0.2,
+          "height": 1.0
+        },
+        {
+          "pos": [-1.1, 0.63125, 1.39375],
+          "width": 0.2,
+          "height": 1.0
+        },
+        {
+          "pos": [-1.1, 0.63125, 1.39375],
+          "width": 0.2,
+          "height": 1.0
+        },
+        {
+          "pos": [0.6, 2.33125, 1.59375],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [0.6, 2.33125, 2.65],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [0.6, 2.33125, 3.45],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [-0.5, 2.33125, 1.59375],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [-0.5, 2.33125, 2.65],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [-0.5, 2.33125, 3.45],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [0.0, 2.63125, 1.59375],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [0.0, 2.63125, 2.65],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [0.0, 2.63125, 3.45],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [0.0, 2.63125, 2.15],
+          "width": 0.2,
+          "height": 0.2
+        },
+        {
+          "pos": [0.0, 2.63125, 3.05],
+          "width": 0.2,
+          "height": 0.2
+        }
+      ]
+    },
+    //rear_body
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [1.0, 1.2375, 0.9125],
+          "width": 0.5,
+          "height": 1.5
+        },
+        {
+          "pos": [0.0, 2.2375, 0.4125],
+          "width": 1.5,
+          "height": 0.5
+        },
+        {
+          "pos": [1.0, 1.2375, 0.4125],
+          "width": 0.5,
+          "height": 1.5
+        },
+        {
+          "pos": [1.0, 1.2375, -0.0875],
+          "width": 0.5,
+          "height": 1.5
+        },
+        {
+          "pos": [1.0, 1.2375, -0.5875],
+          "width": 0.5,
+          "height": 1.5
+        },
+        {
+          "pos": [1.0, 1.2375, -1.0875],
+          "width": 0.5,
+          "height": 1.5
+        },
+        {
+          "pos": [0.0, 2.2375, -1.0875],
+          "width": 1.5,
+          "height": 0.5
+        },
+        {
+          "pos": [0.5, 1.2375, -1.5875],
+          "width": 0.5,
+          "height": 1.5
+        },
+        {
+          "pos": [-0.5, 1.2375, -1.5875],
+          "width": 0.5,
+          "height": 1.5
+        },
+        {
+          "pos": [-1.0, 1.2375, 0.9125],
+          "width": 0.5,
+          "height": 1.5
+        },
+        {
+          "pos": [-1.0, 1.2375, 0.4125],
+          "width": 0.5,
+          "height": 1.5
+        },
+        {
+          "pos": [-1.0, 1.2375, -0.0875],
+          "width": 0.5,
+          "height": 1.5
+        },
+        {
+          "pos": [-1.0, 1.2375, -0.5875],
+          "width": 0.5,
+          "height": 1.5
+        },
+        {
+          "pos": [-1.0, 1.2375, -1.0875],
+          "width": 0.5,
+          "height": 1.5
+        },
+        {
+          "pos": [0.0, 2.7375, 0.0],
+          "width": 1.0,
+          "height": 0.5
+        }
+      ]
+    },
+    //tail
+    {
+      "isInterior": true,
+      "collisions": [
+        {
+          "pos": [0.0, 1.84375, -2.30625],
+          "width": 0.9375,
+          "height": 0.9375
+        },
+        {
+          "pos": [0.0, 2.0, -3.0875],
+          "width": 0.625,
+          "height": 0.625
+        },
+        {
+          "pos": [0.0, 2.0, -3.7125],
+          "width": 0.625,
+          "height": 0.625
+        },
+        {
+          "pos": [0.0, 2.0, -4.3375],
+          "width": 0.625,
+          "height": 0.625
+        },
+        {
+          "pos": [0.0, 2.0625, -4.9],
+          "width": 0.5,
+          "height": 0.5
+        },
+        {
+          "pos": [0.0, 2.0625, -5.4],
+          "width": 0.5,
+          "height": 0.5
+        }
+      ]
+    }
+  ],
+
+  "instruments": [
+    {
+      "pos": [0.0, 1.0, 3.93745],
+      "rot": [0.0, 0.0, 0.0],
+      "scale": 0.029,
+      "hudX": 200,
+      "hudY": 30,
+      "hudScale": 0.325
+    },
+    {
+      "pos": [0.0, 0.6875, 3.93745],
+      "rot": [0.0, 0.0, 0.0],
+      "scale": 0.029,
+      "hudX": 200,
+      "hudY": 75,
+      "hudScale": 0.325
+    },
+    {
+      "pos": [0.0, 0.375, 3.93745],
+      "rot": [0.0, 0.0, 0.0],
+      "scale": 0.029,
+      "hudX": 200,
+      "hudY": 120,
+      "hudScale": 0.325
+    }
+  ],
+
+  "definitions": [
+    {
+      "subName": "",
+      "name": "Henderly H2 SkyTransit",
+      "extraMaterials": []
+    }
+  ],
+
+  "rendering": {
+    "textObjects": [],
+    "animatedObjects": [
+      {
+        "objectName": "heliTailRotorModels[0]",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [0.21875, 2.21875, -5.65625],
+            "axis": [-1.0, 0.0, 0.0],
+            "offset": 90.0
+          }
+        ]
+      },
+      {
+        "objectName": "heliMainRotorModels[0]",
+        "animations": [
+          {
+            "animationType": "visibility",
+            "variable": "part_present_5",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          },
+          {
+            "animationType": "rotation",
+            "variable": "engine_driveshaft_rotation_1",
+            "centerPoint": [0.0, 3.3125, 2.1E-6],
+            "axis": [0.0, 1.0, 0.0],
+            "offset": 90.0
+          }
+        ]
+      },
+      {
+        "objectName": "exhaust",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "engine_sin_1",
+            "centerPoint": [1.3125, 1.5, 0.22706],
+            "axis": [-0.25, 0.0, 0.1]
+          }
+        ]
+      },
+      {
+        "objectName": "controlstick1",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [0.0, 0.1875, 2.3125],
+            "axis": [-1.0, 0.0, 0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [0.0, 0.1875, 2.3125],
+            "axis": [0.0, 0.0, 1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "controlstick2",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "elevator",
+            "centerPoint": [0.0, 0.1875, 3.4375],
+            "axis": [-1.0, 0.0, 0.0]
+          },
+          {
+            "animationType": "rotation",
+            "variable": "aileron",
+            "centerPoint": [0.0, 0.1875, 3.4375],
+            "axis": [0.0, 0.0, 1.0]
+          }
+        ]
+      },
+      {
+        "objectName": "throttle1",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "throttle",
+            "centerPoint": [0.4375, 0.23472, 1.6065],
+            "axis": [-20, 0.0, 0.0]
+          }
+        ]
+      },
+      {
+        "objectName": "throttle2",
+        "animations": [
+          {
+            "animationType": "rotation",
+            "variable": "throttle",
+            "centerPoint": [0.4375, 0.23472, 2.8565],
+            "axis": [-20, 0.0, 0.0]
+          }
+        ]
+      }
+    ],
+    "lightObjects": [],
+    "sounds": [],
+    "particles": [
+      {
+        "type": "smoke",
+        "transparency": 0.25,
+        "toTransparency": 0.25,
+        "scale": 1.0,
+        "color": "D9D9D9",
+        "pos": [1.3125, 1.5, -0.75],
+        "initialVelocity": [0.0, 0.0, -1.0],
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_piston_1_2_cam_1",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      },
+      {
+        "type": "smoke",
+        "quantity": 5,
+        "scale": 2.5,
+        "color": "000000",
+        "pos": [1.3125, 1.5, -0.75],
+        "initialVelocity": [0.0, 0.0, -1.0],
+        "activeAnimations": [
+          {
+            "animationType": "visibility",
+            "variable": "engine_backfired_1",
+            "clampMin": 1.0,
+            "clampMax": 1.0
+          }
+        ]
+      }
+    ]
+  },
+
+  "general": {
+    "description": "",
+    "materials": ["minecraft:iron_ingot:0:38"]
+  }
+}
