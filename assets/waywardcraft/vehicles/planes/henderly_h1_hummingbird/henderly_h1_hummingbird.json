@@ -74,31 +74,13 @@
       "pos": [-0.62089,0.12464,1.72028],
       "dismountPos": [-1.6,0.5,1.75],
       "isController": true,
-      "types": ["seat"],
-      "animations": [
-        {
-          "animationType": "visibility",
-          "variable": "!part_present_8",
-          "centerPoint": [0.0,0.0,0.0],
-          "clampMin": 1.0,
-          "clampMax": 1.0
-        }
-      ]
+      "types": ["seat"]
     },
     {
       "pos": [0.62089,0.12464,1.72028],
       "dismountPos": [1.6,0.5,1.75],
       "isController": true,
-      "types": ["seat"],
-      "animations": [
-        {
-          "animationType": "visibility",
-          "variable": "!part_present_9",
-          "centerPoint": [0.0,0.0,0.0],
-          "clampMin": 1.0,
-          "clampMax": 1.0
-        }
-      ]
+      "types": ["seat"]
     }
   ],
   "collisionGroups": [

@@ -75,25 +75,69 @@
       "pos": [1.40723, 0.06171, 2.09448],
       "rot": [0.0, 90.0, 0.0],
       "dismountPos": [1.5, 0.5, 1.34],
-      "types": ["seat","seat_invisible"]
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_seat",
+      "types": ["seat","seat_invisible"],
+      "animations": [
+      	{
+      		"animationType": "visibility",
+      		"variable": "!part_present_8",
+      		"centerPoint": [0.0, 0.0, 0.0],
+      		"clampMin": 1.0,
+      		"clampMax": 1.0
+      	}
+      ]
     },
     {
       "pos": [1.40723, 0.06171, 1.03709],
       "rot": [0.0, 90.0, 0.0],
       "dismountPos": [1.5, 0.5, 1.34],
-      "types": ["seat","seat_invisible"]
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_seat",
+      "types": ["seat","seat_invisible"],
+      "animations": [
+      	{
+      		"animationType": "visibility",
+      		"variable": "!part_present_9",
+      		"centerPoint": [0.0, 0.0, 0.0],
+      		"clampMin": 1.0,
+      		"clampMax": 1.0
+      	}
+      ]
     },
     {
       "pos": [-1.38844, 0.06171, 2.09448],
       "rot": [0.0, -90.0, 0.0],
       "dismountPos": [1.5, 0.5, 1.34],
-      "types": ["seat","seat_invisible"]
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_seat",
+      "types": ["seat","seat_invisible"],
+      "animations": [
+      	{
+      		"animationType": "visibility",
+      		"variable": "!part_present_10",
+      		"centerPoint": [0.0, 0.0, 0.0],
+      		"clampMin": 1.0,
+      		"clampMax": 1.0
+      	}
+      ]
     },
     {
       "pos": [-1.38844, 0.06171, 1.03709],
       "rot": [0.0, -90.0, 0.0],
       "dismountPos": [1.5, 0.5, 1.34],
-      "types": ["seat","seat_invisible"]
+      "isPermanent": true,
+      "defaultPart": "mts:invisible_seat",
+      "types": ["seat","seat_invisible"],
+      "animations": [
+      	{
+      		"animationType": "visibility",
+      		"variable": "!part_present_11",
+      		"centerPoint": [0.0, 0.0, 0.0],
+      		"clampMin": 1.0,
+      		"clampMax": 1.0
+      	}
+      ]
     }
   ],
 
